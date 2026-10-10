@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path("/workspace")
 SITE = "https://thomasbonsirven.github.io/sczi38"
-ASSET_V = "20261010c"
+ASSET_V = "20261010d"
 PHONE = "04 38 70 03 94"
 PHONE_TEL = "+33438700394"
 STREET = "4290 route Napoléon"
@@ -210,12 +210,12 @@ def footer(prefix):
         <h3>Coordonnées</h3>
         <p><a href="{MAPS_URL}" rel="noopener noreferrer">{ADDRESS}</a></p>
         <p><a href="tel:{PHONE_TEL}">{PHONE}</a></p>
-        <p class="todo-fill" style="color:#5c3b16"><strong>E-mail à compléter</strong> Non publié sur le site actuel (lien thème : your@email).</p>
         <p>SIRET {SIRET}<br>RCS {RCS}</p>
       </div>
     </div>
     <div class="wrap legal">
-      <p>© SCZI — Schubert Couverture Zinguerie Isolation. Site statique de proposition, destiné à GitHub Pages.</p>
+      <p>© SCZI — Schubert Couverture Zinguerie Isolation</p>
+      <p class="footer-credits"><a href="{prefix}credits.html">Crédits & informations</a></p>
     </div>
   </footer>
   <div class="mobile-cta">
@@ -257,7 +257,7 @@ page(
     extra=SCHEMA,
     body=f"""
   <section class="hero">
-    <img class="hero-bg" src="assets/img/chantiers/lucarne-pendant.jpg" width="900" height="1200" alt="Artisan SCZI en toiture, pose de zinc et tuiles écailles avec les Alpes en arrière-plan">
+    <img class="hero-bg" src="assets/img/chantiers/lucarne-pendant.jpg" width="900" height="1200" alt="Pose de zinc et de tuiles écailles en toiture">
     <div class="wrap hero-inner">
       <p class="kicker" style="color:#ffb4bc">Schubert Couverture Zinguerie Isolation</p>
       <h1>La toiture, l’isolation et le zinc, travaillés pour le climat de l’Isère.</h1>
@@ -279,19 +279,19 @@ page(
     <div class="wrap">
       <p class="kicker">Métiers</p>
       <h2>Quatre savoir-faire de toiture, un seul interlocuteur.</h2>
-      <p class="lede">Le site historique présentait l’isolation, la toiture et les Velux. La zinguerie (chéneaux, abergements, rives, joints debout) y était déjà décrite : elle a désormais sa page dédiée.</p>
+      <p class="lede">Couverture, isolation par l’extérieur, combles perdus, Velux et zinguerie : un seul interlocuteur pour le toit.</p>
       <div class="grid-2" style="margin-top:1.5rem">
         <article class="card"><a class="stretched" href="services/toiture.html">
-          <img src="assets/img/chantiers/lucarne-apres.jpg" alt="Lucarne après réfection, tuiles écailles et zinc">
+          <img src="assets/img/chantiers/lucarne-apres.jpg" alt="Lucarne en tuiles écailles et zinc">
           <div class="card-body"><span class="tag">Couverture</span><h3>Toiture neuve et réfection</h3><p>Tuiles, tuiles écailles, bac acier, ardoise ou joints debout. Habillage de lucarnes, charpente associée.</p></div></a></article>
         <article class="card"><a class="stretched" href="services/isolation-sarking.html">
-          <img src="assets/img/chantiers/sarking-1054.jpg" alt="Isolation de toiture par l’extérieur, chantier SCZI">
+          <img src="assets/img/chantiers/sarking-1054.jpg" alt="Isolation de toiture par l’extérieur">
           <div class="card-body"><span class="tag">Isolation</span><h3>Sarking et isolation par l’extérieur</h3><p>Isoler lors d’une réfection sans démonter les plafonds en rampant, ni perdre de hauteur sous toiture.</p></div></a></article>
         <article class="card"><a class="stretched" href="services/isolation-combles.html">
-          <img src="assets/img/stock/isolation-laine.jpg" alt="Isolant en laine, illustration stock">
+          <img src="assets/img/stock/isolation-laine.jpg" alt="Isolant en laine">
           <div class="card-body"><span class="tag">Combles</span><h3>Combles perdus soufflés</h3><p>Isolation par projection de laine de roche, pour les volumes trop bas pour être aménagés.</p></div></a></article>
         <article class="card"><a class="stretched" href="services/velux.html">
-          <img src="assets/img/chantiers/velux-apres.jpg" alt="Fenêtre de toit Velux après installation">
+          <img src="assets/img/chantiers/velux-apres.jpg" alt="Fenêtre de toit Velux">
           <div class="card-body"><span class="tag">Lumière</span><h3>Pose et remplacement de Velux</h3><p>Du simple remplacement au jumelage, jusqu’à la transformation d’un débarras en chambre.</p></div></a></article>
       </div>
       <p style="margin-top:1.2rem"><a href="services/zinguerie.html">Zinguerie : chéneaux, abergements, rives et joints debout →</a></p>
@@ -308,12 +308,11 @@ page(
         <p><strong>Faites des économies de chauffage</strong> en pensant à l’isolation des combles non aménageables par laine de roche soufflée, ou à l’isolation des combles aménagés par l’extérieur.</p>
         <div class="trust" style="margin-top:1rem">
           <div class="trust-item"><span class="num">01</span><div><h3>Un gérant identifiable</h3><p>SCHUBERT Eric, gérant. Le visage du chantier, pas un standard anonyme.</p></div></div>
-          <div class="trust-item"><span class="num">02</span><div><h3>Des photos de vrais toits</h3><p>Lucarnes, sarking, Velux, Eybens, Saint-Nazaire : les images viennent du site existant.</p></div></div>
+          <div class="trust-item"><span class="num">02</span><div><h3>Des toits en Isère</h3><p>Lucarnes, sarking, Velux : des chantiers à Eybens, Saint-Nazaire et dans l’agglomération grenobloise.</p></div></div>
         </div>
       </div>
       <figure>
-        <img src="assets/img/chantiers/lucarne-pendant.jpg" alt="SCHUBERT Eric ou un compagnon SCZI au travail sur une lucarne en zinc">
-        <figcaption class="credit">Photo extraite du site sczi-renov38.fr — chantier de lucarne.</figcaption>
+        <img src="assets/img/chantiers/lucarne-pendant.jpg" alt="Pose de zinc et de tuiles écailles sur une lucarne">
       </figure>
     </div>
   </section>
@@ -322,14 +321,10 @@ page(
     <div class="wrap">
       <p class="kicker">Qualifications</p>
       <h2>Qualibat depuis 2016 : 10 ans de certification.</h2>
-      <p>SCZI est certifiée Qualibat depuis 2016. Cette certification, renouvelée jusqu’en 2026, atteste de <strong>10 ans de performance et de qualité</strong> sur les chantiers. Le site historique indiquait aussi : « Nous sommes désormais reconnue RGE et Qualibat, ce qui vous permet de bénéficier de crédit d’impôt et de la T.V.A à 5,5 %. » Les pages techniques mentionnaient un crédit d’impôt de 30 % sur certains travaux d’isolation.</p>
+      <p>SCZI est certifiée Qualibat depuis 2016. Cette certification, renouvelée jusqu’en 2026, atteste de <strong>10 ans de performance et de qualité</strong> sur les chantiers.</p>
       <div class="badge-row" style="margin:1.2rem 0">
-        <img src="assets/img/badges/rge.png" alt="Badge Entreprise certifiée Qualibat, certification depuis 2016">
-        <img src="assets/img/badges/rge-2016.jpg" alt="Attestation Qualibat / RGE issue du dossier d’entreprise">
-      </div>
-      <div class="todo-fill">
-        <strong>À compléter — numéros de certificat et aides</strong>
-        Les numéros de certificat Qualibat et RGE ne figurent pas encore ici. Les aides (MaPrimeRénov’, CEE, TVA réduite) ont aussi évolué depuis la mention des « 30 % ». Faites vérifier le dossier avant tout devis fiscal.
+        <img src="assets/img/badges/rge.png" alt="Certification Qualibat">
+        <img src="assets/img/badges/rge-2016.jpg" alt="Attestation Qualibat">
       </div>
     </div>
   </section>
@@ -355,7 +350,7 @@ page(
       <div>
         <p class="kicker">Devis</p>
         <h2>Expliquez le toit, on revient vers vous.</h2>
-        <p>Le formulaire reprend les champs du site actuel : nom, téléphone, e-mail, lieu des futurs travaux, budget estimé, besoins.</p>
+        <p>Décrivez le bâtiment, le lieu des travaux et vos besoins : nous revenons vers vous.</p>
         <a class="btn btn-primary" href="contact.html">Ouvrir le formulaire</a>
       </div>
       <div>
@@ -382,17 +377,17 @@ page(
     <div class="wrap split">
       <div>
         <h2>Un gérant, un métier de toiture.</h2>
-        <p>Le site actuel identifie <strong>SCHUBERT Eric</strong> comme gérant. L’entreprise se présente comme spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable.</p>
-        <p>Elle met en avant plus de 20 ans d’expérience en <strong>zinguerie, charpente, sarking et Velux</strong>. Les supports de couverture cités sont les tuiles, les tuiles écailles, le bac acier, l’ardoise et les joints debout.</p>
-        <p>Les travaux sont décrits comme réalisés dans le respect des normes <strong>DTU</strong> et <strong>CSTB</strong>.</p>
+        <p><strong>SCHUBERT Eric</strong> dirige l’entreprise, spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable.</p>
+        <p>Plus de 20 ans d’expérience en <strong>zinguerie, charpente, sarking et Velux</strong>. Les supports de couverture : tuiles, tuiles écailles, bac acier, ardoise et joints debout.</p>
+        <p>Les travaux sont réalisés dans le respect des normes <strong>DTU</strong> et <strong>CSTB</strong>.</p>
       </div>
-      <img src="assets/img/chantiers/lucarne-pendant.jpg" alt="Compagnon SCZI au travail, t-shirt aux couleurs de l’entreprise">
+      <img src="assets/img/chantiers/lucarne-pendant.jpg" alt="Pose de zinc sur une lucarne">
     </div>
   </section>
   <section class="section">
     <div class="wrap grid-2">
       <div>
-        <h2>Identité légale (site actuel)</h2>
+        <h2>Identité légale</h2>
         <ul>
           <li>Dénomination : SCHUBERT COUVERTURE ZINGUERIE</li>
           <li>Enseigne : Schubert Couverture Zinguerie Isolation (SCZI)</li>
@@ -400,18 +395,12 @@ page(
           <li>SIRET : {SIRET}</li>
           <li>RCS : {RCS}</li>
           <li>Téléphone : {PHONE}</li>
-          <li>Directeur de la publication : la société</li>
-          <li>Création graphique du site historique : Thomas BONSIRVEN</li>
         </ul>
-        <div class="todo-fill">
-          <strong>À compléter</strong>
-          Forme juridique détaillée, capital social, n° TVA intracommunautaire, e-mail professionnel, horaires d’accueil, effectif, assurance décennale (n° de police). Aucune de ces mentions n’apparaît clairement sur le site actuel, hors SIRET / RCS / adresse / téléphone.
-        </div>
       </div>
       <div>
-        <h2>Ce que nous ne faisons pas ici</h2>
-        <p>Aucun avis client n’est publié sur sczi-renov38.fr. Ce site de proposition n’en invente pas. Les réseaux sociaux du thème actuel pointent vers <code>http://url</code> : ce sont des placeholders, ils ne sont pas repris.</p>
-        <img src="assets/img/logo/logo-visuel.jpg" alt="Visuel de marque SCZI Toiture" style="border-radius:18px;margin-top:1rem">
+        <h2>Un métier, une enseigne</h2>
+        <p>SCZI — aussi SCZI Bâtiment et SCZI Toiture — intervient de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble.</p>
+        <img src="assets/img/logo/logo-visuel.jpg" alt="Logo SCZI Toiture" style="border-radius:18px;margin-top:1rem">
       </div>
     </div>
   </section>
@@ -450,27 +439,25 @@ service_page(
   <section class="section section-alt">
     <div class="wrap split">
       <div>
-        <p class="lede">Pour un bâtiment neuf, le site actuel compare toiture traditionnelle et toiture plate. Pour l’existant, il documente une réfection de toiture en tuile écaille avec lucarne en joint debout cuivre.</p>
-        <p>Les couvertures traitées : tuiles, tuiles écailles, bac acier, ardoise, joints debout. La charpente fait partie de l’expérience affichée (plus de 20 ans).</p>
+        <p class="lede">Toiture neuve ou réfection : tuiles, tuiles écailles, bac acier, ardoise ou joints debout. Lucarne en joint debout cuivre, charpente associée.</p>
+        <p>La charpente fait partie de l’expérience de l’entreprise (plus de 20 ans).</p>
       </div>
-      <img src="../assets/img/chantiers/lucarne-apres.jpg" alt="Lucarne après réfection, tuiles écailles">
+      <img src="../assets/img/chantiers/lucarne-apres.jpg" alt="Lucarne en tuiles écailles">
     </div>
   </section>
   <section class="section">
     <div class="wrap grid-2">
       <article>
         <h2>Toiture traditionnelle</h2>
-        <p>Une toiture traditionnelle en terre cuite a, d’après le texte du site, une durée de vie minimum de <strong>80 ans</strong>. D’autres matériaux allongent encore cette perspective :</p>
+        <p>Une toiture traditionnelle en terre cuite a une durée de vie minimum de <strong>80 ans</strong>. D’autres matériaux allongent encore cette perspective :</p>
         <ul>
           <li>tuile en terre cuite écaille plate : <strong>90 ans</strong> au minimum ;</li>
           <li>tuiles en ardoise : plus de <strong>120 ans</strong> de vie minimum.</li>
         </ul>
         <div class="price-note">
-          <strong>Indication tarifaire reprise du site (bâtiment neuf)</strong>
+          <strong>Indication pour un bâtiment neuf</strong>
           <p>Surface de 120 m², toit sans Velux, sans cheminée, tuiles en terre cuite : <strong>à partir de 65 €/m²</strong>.</p>
-          <p class="credit">Cette fourchette est celle publiée sur la page Toiture (dernière mise à jour indiquée : 2018). Elle n’a pas été actualisée ici.</p>
         </div>
-        <div class="todo-fill" style="margin-top:1rem"><strong>À compléter</strong> Grille tarifaire actuelle, éventuels indices de révision, prestations incluses / exclues.</div>
       </article>
       <article>
         <h2>Toiture plate</h2>
@@ -482,15 +469,14 @@ service_page(
           <li>ossature bois : maximum 20 ans, avec possible reprise d’étanchéité.</li>
         </ul>
         <h3>Étanchéité végétalisée</h3>
-        <p>Surface végétale au-dessus du toit plat, membrane contre la corrosion liée aux racines. Entretien au minimum tous les 6 mois. Durée de vie indiquée : <strong>15 ans en moyenne</strong>.</p>
-        <p class="credit">La photo de toit végétalisé du site historique (EVA Lanxmeer) est un visuel d’illustration, pas nécessairement un chantier SCZI.</p>
+        <p>Surface végétale au-dessus du toit plat, membrane contre la corrosion liée aux racines. Entretien au minimum tous les 6 mois. Durée de vie : <strong>15 ans en moyenne</strong>.</p>
       </article>
     </div>
   </section>
   <section class="section section-alt">
     <div class="wrap">
       <h2>Réfection de lucarne — avant / après</h2>
-      <p>Chantier présenté comme « réfection de toiture tuile écaille et lucarne en joint de bout cuivre ».</p>
+      <p>Réfection de toiture tuile écaille et lucarne en joint debout cuivre.</p>
       <div class="gallery" data-gallery>
         <figure><a href="../assets/img/chantiers/lucarne-avant.jpg"><img src="../assets/img/chantiers/lucarne-avant.jpg" alt="Avant : lucarne et toiture à reprendre"></a><figcaption>Avant</figcaption></figure>
         <figure><a href="../assets/img/chantiers/lucarne-pendant.jpg"><img src="../assets/img/chantiers/lucarne-pendant.jpg" alt="Pendant : pose du zinc et des tuiles"></a><figcaption>Pendant</figcaption></figure>
@@ -505,14 +491,14 @@ service_page(
         <div class="step"><h3>Échange et visite</h3><p>Vous décrivez le bâtiment, les désordres (fuites, tuiles, zinc) et le lieu des travaux. Une visite permet d’adapter la réponse au support réel.</p></div>
         <div class="step"><h3>Choix du matériau</h3><p>Tuile, écaille, ardoise, bac acier ou joint debout : le choix suit le bâti, le budget et les règles de l’art DTU / CSTB.</p></div>
         <div class="step"><h3>Chantier</h3><p>Protection, dépose, reprise éventuelle de charpente, couverture, zinguerie de rive et d’ouvrage, contrôles d’étanchéité.</p></div>
-        <div class="step"><h3>Remise</h3><p>Relecture du chantier avec vous. Les photos de lucarne du site montrent le niveau de finition visé.</p></div>
+        <div class="step"><h3>Remise</h3><p>Relecture du chantier avec vous. La lucarne en tuile écaille et zinc montre le niveau de finition visé.</p></div>
       </div>
     </div>
   </section>
   <section class="section section-alt">
     <div class="wrap">
       <h2>Questions fréquentes</h2>
-      <details><summary>Intervenez-vous seulement en neuf ?</summary><p>Non. Le site documente aussi la réfection (lucarne, Eybens). Le neuf sert surtout à comparer durées de vie et un prix d’ordre de grandeur.</p></details>
+      <details><summary>Intervenez-vous seulement en neuf ?</summary><p>Non. Nous réalisons aussi des réfections, comme la lucarne en tuile écaille ou la toiture à Eybens. Le neuf permet surtout de comparer durées de vie et un prix d’ordre de grandeur.</p></details>
       <details><summary>Travaillez-vous l’ardoise et le zinc ?</summary><p>Oui : ardoise et joints debout sont listés parmi les réponses possibles, au même titre que tuiles et bac acier.</p></details>
       <details><summary>Peut-on isoler en même temps ?</summary><p>C’est même le moment le plus logique : voir la page sarking. Isoler par l’extérieur évite de démonter les plafonds en rampant.</p></details>
       <p><a class="btn btn-primary" href="../contact.html">Demander un devis toiture</a></p>
@@ -533,16 +519,15 @@ service_page(
     <div class="wrap split">
       <div>
         <p class="lede">Le procédé permet, en cas de réfection de toiture, d’isoler dans les normes sans avoir à démonter les plafonds en rampant et/ou perdre de la hauteur due à l’épaisseur d’isolant.</p>
-        <p>Il vise une baisse de consommation d’énergie. Le site historique indiquait un crédit d’impôt de 30 % sur ces travaux : ce taux n’est plus le cadre légal actuel, d’où le bandeau ci-dessous.</p>
-        <div class="todo-fill"><strong>Aides à actualiser</strong> Remplacer la mention « 30 % » par le dispositif en vigueur (MaPrimeRénov’, CEE, TVA). Confirmer que l’entreprise est toujours RGE au moment du devis.</div>
+        <p>Il vise une baisse de consommation d’énergie, en isolant au moment où la couverture est ouverte.</p>
       </div>
       <img src="../assets/img/chantiers/sarking-1054.jpg" alt="Chantier d’isolation de toiture par l’extérieur">
     </div>
   </section>
   <section class="section">
     <div class="wrap">
-      <h2>Trois montages décrits sur le site actuel</h2>
-      <p>Différentes solutions existent suivant la configuration de la charpente et le budget. Les exemples publiés visent tous une résistance thermique <strong>R = 6,30</strong>.</p>
+      <h2>Trois montages</h2>
+      <p>Différentes solutions existent suivant la configuration de la charpente et le budget. Les exemples visent une résistance thermique <strong>R = 6,30</strong>.</p>
       <div class="grid-3" style="margin-top:1rem">
         <article class="card"><img src="../assets/img/chantiers/sarking-1014.jpg" alt="Laine de bois et panneau sarking"><div class="card-body">
           <h3>Laine de bois + sarking</h3>
@@ -550,11 +535,11 @@ service_page(
         </div></article>
         <article class="card"><img src="../assets/img/chantiers/sarking-0685.jpg" alt="Double couche de laine de bois 120 mm"><div class="card-body">
           <h3>Deux fois 120 mm</h3>
-          <p>Laine de bois semi-rigide en deux épaisseurs de 120 mm entre chevrons, couches croisées. R = 6,30. Chantier légendé « Isolation et toiture Saint-Nazaire ».</p>
+          <p>Laine de bois semi-rigide en deux épaisseurs de 120 mm entre chevrons, couches croisées. R = 6,30. Isolation et toiture à Saint-Nazaire.</p>
         </div></article>
         <article class="card"><img src="../assets/img/chantiers/sarking-double-chevron.jpg" alt="Double chevronnage et laine de verre"><div class="card-body">
           <h3>Double chevronnage</h3>
-          <p>Isolation par l’extérieur avec double chevronnage, laine de verre 2 × 100 mm en GR32. R = 6,30. Légende : « Isolation toiture extérieur Eybens » sur une version de la page.</p>
+          <p>Isolation par l’extérieur avec double chevronnage, laine de verre 2 × 100 mm en GR32. R = 6,30. Isolation toiture à Eybens.</p>
         </div></article>
       </div>
     </div>
@@ -569,8 +554,8 @@ service_page(
         <div class="step"><h3>Couverture et zinc</h3><p>La toiture se referme : tuiles, écailles, zinguerie. L’isolant n’est plus exposé.</p></div>
       </div>
       <h2 style="margin-top:2rem">FAQ</h2>
-      <details><summary>Faut-il vider les combles ?</summary><p>Le propos du sarking, tel qu’écrit sur le site, est justement d’éviter de démonter les plafonds en rampant.</p></details>
-      <details><summary>Pourquoi R = 6,30 ?</summary><p>C’est la valeur publiée sur les trois exemples, associée à l’époque à l’éligibilité d’un crédit d’impôt. La réglementation et les aides ont changé : à recaler au devis.</p></details>
+      <details><summary>Faut-il vider les combles ?</summary><p>Le sarking vise justement à éviter de démonter les plafonds en rampant.</p></details>
+      <details><summary>Pourquoi R = 6,30 ?</summary><p>C’est la résistance thermique visée sur les trois montages présentés.</p></details>
       <p><a class="btn btn-primary" href="../contact.html">Demander un devis isolation</a></p>
     </div>
   </section>
@@ -589,18 +574,16 @@ service_page(
     <div class="wrap split">
       <div>
         <p class="lede">Le terme comble perdu désigne un espace insuffisant entre la dernière hauteur de plafond horizontale et la toiture du bâtiment.</p>
-        <p>Dans ce cas, l’isolation par projection reste, d’après le site, la plus performante pour la rupture de pont thermique (pénétration dans les recoins, lame d’air entre couches) et d’un point de vue financier (gain de temps face aux rouleaux ou panneaux).</p>
-        <p>La page d’accueil précise : isolation des combles non aménageables <strong>par laine de roche soufflée</strong>.</p>
+        <p>Dans ce cas, l’isolation par projection reste la plus performante pour la rupture de pont thermique (pénétration dans les recoins, lame d’air entre couches) et d’un point de vue financier (gain de temps face aux rouleaux ou panneaux).</p>
+        <p>Isolation des combles non aménageables <strong>par laine de roche soufflée</strong>.</p>
       </div>
-      <img src="../assets/img/stock/isolation-laine.jpg" alt="Illustration stock : isolant en laine">
+      <img src="../assets/img/stock/isolation-laine.jpg" alt="Isolant en laine">
     </div>
-    <div class="wrap"><p class="credit">Photo d’ambiance : Pexels — Karolina Grabowska. Aucune photo de soufflage n’était clairement légendée sur le site actuel.</p></div>
   </section>
   <section class="section">
     <div class="wrap">
-      <h2>Fiche technique reprise du site</h2>
-      <p>Le tableau ci-dessous est celui publié sous le titre « Fiche technique isolation laine de roche soufflé ». À partir d’une résistance thermique de <strong>7</strong> (ligne mise en avant), le crédit d’impôt était présenté comme éligible.</p>
-      <div class="todo-fill" style="margin-bottom:1rem"><strong>À vérifier</strong> Marque de l’isolant, avis technique en vigueur, et aides 2026. Le tableau est historique.</div>
+      <h2>Fiche technique — laine de roche soufflée</h2>
+      <p>À partir d’une résistance thermique de <strong>7</strong> (ligne mise en avant), l’épaisseur après tassement est de 315 mm.</p>
       <div class="table-wrap"><table>
         <thead><tr><th>Ép. (mm)</th><th>Ép. après tassement (mm)</th><th>R (m².K/W)</th><th>Pouvoir couvrant (kg/m²)</th><th>Sacs / 100 m²</th><th>Up (W/m².K)</th></tr></thead>
         <tbody>
@@ -618,7 +601,6 @@ service_page(
           <tr><td>685</td><td>675</td><td>15</td><td>14,5</td><td>72,3</td><td></td></tr>
         </tbody>
       </table></div>
-      <p class="credit">Extrait simplifié : le tableau original du site contient toutes les lignes intermédiaires (tous les 0,5 de R). Valeurs non réinventées.</p>
     </div>
   </section>
   <section class="section section-alt">
@@ -626,12 +608,12 @@ service_page(
       <h2>Processus</h2>
       <div class="steps">
         <div class="step"><h3>Accès au comble</h3><p>Trappe, passage, état du plancher : on vérifie que le soufflage peut se faire sans tasser un plafond fragile.</p></div>
-        <div class="step"><h3>Épaisseur cible</h3><p>Le tableau relie millimètres, tassement, R et nombre de sacs. Le site mettait en avant R ≥ 7 pour l’aide fiscale d’alors.</p></div>
+        <div class="step"><h3>Épaisseur cible</h3><p>Le tableau relie millimètres, tassement, résistance thermique R et nombre de sacs. La ligne R = 7 est mise en avant.</p></div>
         <div class="step"><h3>Projection</h3><p>La laine de roche est soufflée pour garnir recoins et lames d’air, plus rapidement que des panneaux.</p></div>
       </div>
       <h2>FAQ</h2>
       <details><summary>Différence avec le sarking ?</summary><p>Combles perdus = volume non habitable, isolation au sol du comble. Sarking = isolation par l’extérieur, souvent pour combles aménagés ou à préserver en hauteur.</p></details>
-      <details><summary>Puis-je aménager plus tard ?</summary><p>Si l’espace redevient habitable, la logique change : le site parle alors d’isolation des combles aménagés par l’extérieur.</p></details>
+      <details><summary>Puis-je aménager plus tard ?</summary><p>Si l’espace redevient habitable, la logique change : isolation des combles aménagés par l’extérieur (sarking).</p></details>
       <p><a class="btn btn-primary" href="../contact.html">Demander un devis combles</a></p>
     </div>
   </section>
@@ -649,28 +631,26 @@ service_page(
   <section class="section section-alt">
     <div class="wrap split">
       <div>
-        <p class="lede">Les châssis de toit Velux sont présentés sur le site comme la solution la plus performante pour le gain de luminosité et l’aménagement de comble, et moins onéreuse que la création d’un chien assis.</p>
-        <p>Le texte historique les décrit aussi comme la menuiserie de série la plus performante du marché en isolation thermique, avec une comparaison de coefficients : norme alors citée pour l’éligibilité au crédit d’impôt Uw = 1,4 et Sw = 0,23 ; Velux Uw = 1,1 et Sw = 0,23 (plus le Uw se rapproche de 1, meilleure est l’isolation, selon la page).</p>
-        <div class="todo-fill"><strong>Performances à recaler</strong> Les Uw / Sw et les règles d’aides ont pu changer. Vérifier la gamme réellement posée (manuel, motorisé, Integra Solar) au moment du devis.</div>
+        <p class="lede">Les châssis de toit Velux apportent de la lumière et permettent d’aménager un comble, pour un coût moindre qu’un chien assis.</p>
+        <p>Un Velux vise un coefficient Uw de 1,1 (plus le Uw se rapproche de 1, meilleure est l’isolation thermique).</p>
       </div>
-      <img src="../assets/img/chantiers/velux-apres.jpg" alt="Velux après pose, chantier SCZI">
+      <img src="../assets/img/chantiers/velux-apres.jpg" alt="Fenêtre de toit Velux">
     </div>
   </section>
   <section class="section">
     <div class="wrap grid-2">
       <div>
-        <h2>Integra Solar, tel que décrit</h2>
-        <p>Le modèle Integra Solar est présenté avec des capteurs qui actionnent la ventilation en cas de trop forte humidité ou de fort taux de CO₂, et se referment à la détection de pluie. Une tablette Velux permet de programmer ouvertures, fermetures, volet extérieur, et d’autres appareils télécommandés Somfy, dans une limite de 60 appareils.</p>
-        <p>Le site invite aussi à remplacer un ancien châssis « qui double la chaleur du soleil » et s’éloigne des performances actuelles.</p>
+        <h2>Integra Solar</h2>
+        <p>Le modèle Integra Solar dispose de capteurs qui actionnent la ventilation en cas de trop forte humidité ou de fort taux de CO₂, et se referment à la détection de pluie. Une tablette Velux permet de programmer ouvertures, fermetures, volet extérieur, et d’autres appareils télécommandés Somfy, dans une limite de 60 appareils.</p>
+        <p>Un ancien châssis qui laisse passer trop de chaleur se remplace pour se rapprocher de ces performances.</p>
       </div>
       <div>
-        <h2>Chantiers publiés</h2>
+        <h2>Exemples de chantiers</h2>
         <ul>
           <li>Transformation d’un débarras en chambre et réalisation de chevrette de panne pour pose d’un Velux.</li>
-          <li>Aile droite : agrandissement d’un Velux 114/118 en jumelage après réfection totale de toiture ; aile gauche : changement de Velux. Isolation par l’extérieur en laine de bois 2 × 120 mm croisées, R = 6,30.</li>
-          <li>Création de Velux en duo 134/140 ainsi que 134/98.</li>
+          <li>Aile droite : agrandissement d’un Velux 114 × 118 cm en jumelage après réfection totale de toiture ; aile gauche : changement de Velux. Isolation par l’extérieur en laine de bois 2 × 120 mm croisées, R = 6,30.</li>
+          <li>Création de Velux en duo 134 × 140 cm ainsi que 134 × 98 cm.</li>
         </ul>
-        <p class="credit">Légende Velux : largeur × hauteur en centimètres (exemple 114 × 118).</p>
       </div>
     </div>
   </section>
@@ -692,12 +672,12 @@ service_page(
       <h2>Étapes</h2>
       <div class="steps">
         <div class="step"><h3>Cote et usage</h3><p>Chambre, bureau, simple éclairement : la cote (ex. 114/118) et le jumelage se décident avec la charpente.</p></div>
-        <div class="step"><h3>Chevrette si besoin</h3><p>Le site documente une chevrette de panne lorsque la structure ne permet pas une pose directe.</p></div>
+        <div class="step"><h3>Chevrette si besoin</h3><p>Une chevrette de panne se pose lorsque la structure ne permet pas une pose directe.</p></div>
         <div class="step"><h3>Étanchéité</h3><p>Raccord de toiture, abergement, isolation périphérique : le châssis n’est pas une simple menuiserie posée dans un trou.</p></div>
       </div>
       <h2>FAQ</h2>
-      <details><summary>Peut-on poser un Velux sans refaire tout le toit ?</summary><p>Oui, des remplacements isolés sont décrits (aile gauche). Un jumelage a aussi été fait « suite à une réfection totale ».</p></details>
-      <details><summary>Pourquoi pas un chien assis ?</summary><p>Le site présente le Velux comme moins onéreux, tout en apportant lumière et confort d’aménagement.</p></details>
+      <details><summary>Peut-on poser un Velux sans refaire tout le toit ?</summary><p>Oui : des remplacements isolés sont possibles. Un jumelage peut aussi accompagner une réfection totale.</p></details>
+      <details><summary>Pourquoi pas un chien assis ?</summary><p>Le Velux est moins onéreux, tout en apportant lumière et confort d’aménagement.</p></details>
       <p><a class="btn btn-primary" href="../contact.html">Demander un devis Velux</a></p>
     </div>
   </section>
@@ -715,10 +695,10 @@ service_page(
   <section class="section section-alt">
     <div class="wrap split">
       <div>
-        <p class="lede">Le site d’accueil ne consacre pas de menu à la zinguerie, mais il en décrit déjà les ouvrages : habillages et abergements de cheminée, pose de chéneaux, habillages de planches de rive et de bandeaux, toitures en joints debout. L’expérience « plus de 20 ans en zinguerie » est affichée en tête.</p>
+        <p class="lede">Habillages et abergements de cheminée, pose de chéneaux, habillages de planches de rive et de bandeaux, toitures en joints debout : plus de 20 ans en zinguerie.</p>
         <p>La réfection de lucarne en joint debout cuivre montre le niveau d’ouvrage : le métal n’est pas un accessoire, c’est la ligne d’eau du toit.</p>
       </div>
-      <img src="../assets/img/chantiers/lucarne-pendant.jpg" alt="Pose de zinc / cuivre en lucarne, chantier SCZI">
+      <img src="../assets/img/chantiers/lucarne-pendant.jpg" alt="Pose de zinc sur une lucarne">
     </div>
   </section>
   <section class="section">
@@ -733,10 +713,9 @@ service_page(
     <div class="wrap">
       <h2>Pourquoi le zinc compte en montagne grenobloise</h2>
       <p>Neige, gel, fortes pluies : les points singuliers (lucarne, cheminée, rive) fatiguent avant le plein rampant. Un abergement juste, un chéneau dimensionné, une rive bien habillée prolongent la couverture — tuile ou ardoise.</p>
-      <div class="todo-fill"><strong>À compléter</strong> Métaux proposés au catalogue (zinc naturel, quartz, cuivre, aluminium), garanties de patine, exemples de chéneaux récents avec date.</div>
       <div class="steps" style="margin-top:1.2rem">
         <div class="step"><h3>Relevé des ouvrages</h3><p>Cheminées, noues, rives, lucarnes : on liste les points d’eau avant de parler couleur de tuile.</p></div>
-        <div class="step"><h3>Façonnage</h3><p>Les photos de lucarne montrent un travail de plateau, pas seulement des accessoires du commerce.</p></div>
+        <div class="step"><h3>Façonnage</h3><p>Le zinc et le cuivre se façonnent sur le chantier, pas seulement comme accessoires du commerce.</p></div>
         <div class="step"><h3>Raccord couverture</h3><p>Le métal se coud avec la tuile ou l’ardoise pour que l’eau n’ait qu’un chemin.</p></div>
       </div>
       <p><a class="btn btn-primary" href="../contact.html">Demander un devis zinguerie</a></p>
@@ -756,13 +735,13 @@ page(
   <section class="page-hero wrap">
     <p class="kicker">Services</p>
     <h1>Le toit, l’isolant, le zinc, la lumière.</h1>
-    <p class="lede">Cinq pages de métier, rédigées à partir de l’activité réelle de l’entreprise — sans inventer de prix, d’avis ni de labels.</p>
+    <p class="lede">Couverture, isolation, Velux et zinguerie : les métiers de SCZI à Brié-et-Angonnes, en Isère.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap grid-2">
       <article class="card"><a class="stretched" href="toiture.html"><img src="../assets/img/chantiers/lucarne-apres.jpg" alt="Réfection de lucarne"><div class="card-body"><h3>Toiture</h3><p>Neuf, réfection, tuiles, écailles, ardoise, bac acier, joints debout.</p></div></a></article>
-      <article class="card"><a class="stretched" href="isolation-sarking.html"><img src="../assets/img/chantiers/sarking-1054.jpg" alt="Sarking"><div class="card-body"><h3>Isolation sarking</h3><p>Isoler par l’extérieur lors d’une réfection, R = 6,30 sur les exemples publiés.</p></div></a></article>
-      <article class="card"><a class="stretched" href="isolation-combles.html"><img src="../assets/img/stock/isolation-laine.jpg" alt="Isolation"><div class="card-body"><h3>Combles perdus</h3><p>Laine de roche soufflée, tableau de résistances thermiques historique.</p></div></a></article>
+      <article class="card"><a class="stretched" href="isolation-sarking.html"><img src="../assets/img/chantiers/sarking-1054.jpg" alt="Isolation de toiture par l’extérieur"><div class="card-body"><h3>Isolation sarking</h3><p>Isoler par l’extérieur lors d’une réfection, R = 6,30.</p></div></a></article>
+      <article class="card"><a class="stretched" href="isolation-combles.html"><img src="../assets/img/stock/isolation-laine.jpg" alt="Isolant en laine"><div class="card-body"><h3>Combles perdus</h3><p>Laine de roche soufflée, résistances thermiques selon l’épaisseur.</p></div></a></article>
       <article class="card"><a class="stretched" href="velux.html"><img src="../assets/img/chantiers/velux-apres.jpg" alt="Velux"><div class="card-body"><h3>Velux</h3><p>Pose, remplacement, jumelage, chevrette de panne.</p></div></a></article>
       <article class="card"><a class="stretched" href="zinguerie.html"><img src="../assets/img/chantiers/lucarne-pendant.jpg" alt="Zinguerie"><div class="card-body"><h3>Zinguerie</h3><p>Cheminées, chéneaux, rives, bandeaux, joints debout.</p></div></a></article>
     </div>
@@ -794,68 +773,72 @@ GALLERY_ITEMS = [
     ("toiture-0664.jpg", "Ouvrage de toiture"),
     ("toiture-0662.jpg", "Ouvrage de toiture"),
     ("eybens-avant.jpg", "Toiture de maison à Eybens — avant"),
-    ("mur-pignon-1.jpg", "Mur pignon — chantier SCZI"),
-    ("mur-pignon-2.jpg", "Mur pignon — chantier SCZI"),
-    ("img-0091.jpg", "Chantier SCZI"),
-    ("img-0427.jpg", "Chantier SCZI"),
-    ("img-0422.jpg", "Chantier SCZI"),
-    ("img-0153.jpg", "Chantier SCZI"),
-    ("img-0135.jpg", "Chantier SCZI"),
-    ("img-0110.jpg", "Chantier SCZI"),
-    ("img-0108.jpg", "Chantier SCZI"),
-    ("img-0064.jpg", "Chantier SCZI"),
-    ("img-0058.jpg", "Chantier SCZI"),
-    ("img-0054.jpg", "Chantier SCZI"),
-    ("img-0042.jpg", "Chantier SCZI"),
-    ("img-0039.jpg", "Chantier SCZI"),
-    ("img-0032.jpg", "Chantier SCZI"),
-    ("img-0651.jpg", "Chantier SCZI"),
-    ("img-0638.jpg", "Chantier SCZI"),
-    ("img-0593.jpg", "Chantier SCZI"),
-    ("img-0590.jpg", "Chantier SCZI"),
-    ("img-0561.jpg", "Chantier SCZI"),
-    ("img-0530.jpg", "Chantier SCZI"),
-    ("img-0515.jpg", "Chantier SCZI"),
-    ("img-0284.jpg", "Chantier SCZI"),
-    ("img-0246.jpg", "Chantier SCZI"),
-    ("img-0241.jpg", "Chantier SCZI"),
-    ("img-0086.jpg", "Chantier SCZI"),
-    ("img-0059.jpg", "Chantier SCZI"),
-    ("img-0056.jpg", "Chantier SCZI"),
-    ("img-0052.jpg", "Chantier SCZI"),
-    ("img-0050.jpg", "Chantier SCZI"),
-    ("img-0021.jpg", "Chantier SCZI"),
-    ("img-0009.jpg", "Chantier SCZI"),
-    ("img-0003.jpg", "Chantier SCZI"),
-    ("dsc-0037.jpg", "Chantier SCZI"),
-    ("fullsizer.jpg", "Chantier SCZI"),
-    ("sans-titre-5.jpg", "Chantier SCZI"),
-    ("sans-titre-2.jpg", "Chantier SCZI"),
+    ("mur-pignon-1.jpg", "Mur pignon"),
+    ("mur-pignon-2.jpg", "Mur pignon"),
+    ("img-0091.jpg", ""),
+    ("img-0427.jpg", ""),
+    ("img-0422.jpg", ""),
+    ("img-0153.jpg", ""),
+    ("img-0135.jpg", ""),
+    ("img-0110.jpg", ""),
+    ("img-0108.jpg", ""),
+    ("img-0064.jpg", ""),
+    ("img-0058.jpg", ""),
+    ("img-0054.jpg", ""),
+    ("img-0042.jpg", ""),
+    ("img-0039.jpg", ""),
+    ("img-0032.jpg", ""),
+    ("img-0651.jpg", ""),
+    ("img-0638.jpg", ""),
+    ("img-0593.jpg", ""),
+    ("img-0590.jpg", ""),
+    ("img-0561.jpg", ""),
+    ("img-0530.jpg", ""),
+    ("img-0515.jpg", ""),
+    ("img-0284.jpg", ""),
+    ("img-0246.jpg", ""),
+    ("img-0241.jpg", ""),
+    ("img-0086.jpg", ""),
+    ("img-0059.jpg", ""),
+    ("img-0056.jpg", ""),
+    ("img-0052.jpg", ""),
+    ("img-0050.jpg", ""),
+    ("img-0021.jpg", ""),
+    ("img-0009.jpg", ""),
+    ("img-0003.jpg", ""),
+    ("dsc-0037.jpg", ""),
+    ("fullsizer.jpg", ""),
+    ("sans-titre-5.jpg", ""),
+    ("sans-titre-2.jpg", ""),
 ]
 
-figs = "\n".join(
-    f'<figure><a href="assets/img/chantiers/{fn}"><img src="assets/img/chantiers/{fn}" alt="{cap}"></a><figcaption>{cap}</figcaption></figure>'
-    for fn, cap in GALLERY_ITEMS
-)
+
+def gallery_figure(fn, cap):
+    alt = cap if cap else "Toiture, chantier SCZI"
+    html = f'<figure><a href="assets/img/chantiers/{fn}"><img src="assets/img/chantiers/{fn}" alt="{alt}"></a>'
+    if cap:
+        html += f"<figcaption>{cap}</figcaption>"
+    return html + "</figure>"
+
+
+figs = "\n".join(gallery_figure(fn, cap) for fn, cap in GALLERY_ITEMS)
 
 page(
     "realisations.html",
     "Réalisations toiture et isolation — galerie SCZI",
-    "Galerie des photos de chantiers publiées sur sczi-renov38.fr : lucarnes, Velux, sarking, Eybens, Saint-Nazaire.",
+    "Galerie de chantiers SCZI : lucarnes, Velux, sarking, Eybens, Saint-Nazaire.",
     "realisations.html",
     body=f"""
   <section class="page-hero wrap">
     <p class="kicker">Réalisations</p>
     <h1>Les toits déjà photographiés.</h1>
-    <p class="lede">Toutes les photos ci-dessous viennent de la médiathèque du site actuel. Les légendes précises du thème (avant/après, Eybens, Saint-Nazaire, cotes Velux) sont reprises quand elles existaient. Les autres clichés sont simplement titrés « Chantier SCZI » — sans inventer de commune ni de date.</p>
+    <p class="lede">Lucarnes, Velux, sarking, toitures à Eybens et Saint-Nazaire : une sélection de chantiers.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap">
-      <div class="todo-fill" style="margin-bottom:1.2rem"><strong>À compléter</strong> Année, commune, type d’ouvrage et matériel pour chaque photo encore titrée « Chantier SCZI ». Ajouter des avant/après récents si vous en avez.</div>
       <div class="gallery" data-gallery>
         {figs}
       </div>
-      <p class="credit" style="margin-top:1rem">Le visuel de toit végétalisé (EVA Lanxmeer) du site historique est une photo d’illustration tierce ; il n’est pas affiché ici comme chantier SCZI.</p>
     </div>
   </section>
 """,
@@ -896,9 +879,8 @@ page(
   <section class="section">
     <div class="wrap">
       <h2>Pourquoi le climat local compte</h2>
-      <p>Sans prétendre à une étude climatique, le métier décrit (tuiles écailles, zinc, sarking, laine soufflée) répond à des toits exposés au froid, à la neige et aux écarts thermiques de l’agglomération grenobloise. L’isolation par l’extérieur et les combles perdus y sont présentés comme des leviers d’économie de chauffage.</p>
-      <img src="assets/img/stock/paysage-alpes.jpg" alt="Paysage alpin, illustration de l’environnement isérois" style="border-radius:18px;margin:1rem 0;max-height:22rem;width:100%;object-fit:cover">
-      <p class="credit">Photo stock : Pexels — James Wheeler. Ne représente pas le siège.</p>
+      <p>Tuiles écailles, zinc, sarking et laine soufflée répondent à des toits exposés au froid, à la neige et aux écarts thermiques de l’agglomération grenobloise. L’isolation par l’extérieur et les combles perdus y sont des leviers d’économie de chauffage.</p>
+      <img src="assets/img/stock/paysage-alpes.jpg" alt="Paysage de montagne en Isère" style="border-radius:18px;margin:1rem 0;max-height:22rem;width:100%;object-fit:cover">
       <p><a class="btn btn-primary" href="contact.html">Indiquer le lieu des travaux</a></p>
     </div>
   </section>
@@ -914,15 +896,12 @@ page(
   <section class="page-hero wrap">
     <p class="kicker">Contact</p>
     <h1>Un devis, à partir du toit que vous décrivez.</h1>
-    <p class="lede">Les champs sont ceux du formulaire Gravity Forms du site actuel. Aucun envoi n’est encore relié à une boîte mail réelle : voyez le bandeau ci-dessous.</p>
+    <p class="lede">Nom, téléphone, e-mail, lieu des travaux, budget estimé et besoins : nous revenons vers vous.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap contact-layout">
       <form class="form" id="devis-form" action="https://formspree.io/f/xxxxxxxx" method="POST">
-        <div class="todo-fill" id="form-fallback">
-          <strong>E-mail et Formspree à brancher</strong>
-          Sur sczi-renov38.fr, le lien e-mail du thème est <code>mailto:your@email</code> — ce n’est pas une adresse réelle. Remplacez <code>xxxxxxxx</code> par un identifiant Formspree, ou basculez le <code>action</code> vers un mailto définitif. En l’état, la soumission ouvre un brouillon vers une adresse factice.
-        </div>
+        <p class="form-notice" id="form-fallback" hidden></p>
         <div class="form-row">
           <label>Nom *<input name="nom" type="text" required autocomplete="name"></label>
           <label>Téléphone<input name="telephone" type="tel" autocomplete="tel"></label>
@@ -934,11 +913,11 @@ page(
         </div>
         <label>Vos besoins *<textarea name="besoin" required></textarea></label>
         <label class="hp">Site web<input name="company_website" tabindex="-1" autocomplete="off"></label>
-        <p class="credit">En envoyant ce formulaire, vous acceptez d’être recontacté au sujet de votre projet. Voir les <a href="mentions-legales.html">mentions légales</a>.</p>
+        <p>En envoyant ce formulaire, vous acceptez d’être recontacté au sujet de votre projet. Voir les <a href="mentions-legales.html">mentions légales</a>.</p>
         <button class="btn btn-primary" type="submit">Envoyer</button>
       </form>
       <aside class="contact-card">
-        <h2>Coordonnées publiées</h2>
+        <h2>Coordonnées</h2>
         <dl>
           <dt>Téléphone</dt>
           <dd><a href="tel:{PHONE_TEL}">{PHONE}</a></dd>
@@ -946,10 +925,6 @@ page(
           <dd><a href="{MAPS_URL}" rel="noopener noreferrer">{ADDRESS}</a></dd>
           <dt>Gérant</dt>
           <dd>SCHUBERT Eric</dd>
-          <dt>E-mail</dt>
-          <dd class="todo-fill" style="color:#5c3b16">Non publié sur le site actuel.</dd>
-          <dt>Horaires</dt>
-          <dd class="todo-fill" style="color:#5c3b16">Non indiqués sur le site actuel.</dd>
         </dl>
       </aside>
     </div>
@@ -966,7 +941,7 @@ page(
   <section class="page-hero wrap">
     <p class="kicker">Informations légales</p>
     <h1>Mentions légales</h1>
-    <p class="lede">Texte repris des mentions du site sczi-renov38.fr, nettoyé des shortcodes de thème et d’un bloc visiblement copié-collé (adresse « 20 Minutes France ») qui ne concerne pas SCZI.</p>
+    <p class="lede">Éditeur, hébergement et protection des données personnelles.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap" style="max-width:48rem">
@@ -977,25 +952,78 @@ page(
       Siège social : 4290 route Napoléon — 38320 Brié-et-Angonnes<br>
       Téléphone : {PHONE}<br>
       Directeur de la publication : la société SCHUBERT COUVERTURE ZINGUERIE</p>
-      <div class="todo-fill"><strong>À compléter</strong> E-mail de contact, forme juridique, capital social, n° TVA, hébergeur de ce dépôt GitHub Pages (GitHub, Inc. — à confirmer dans vos CGU), responsable du traitement RGPD nommément.</div>
 
-      <h2>Hébergement de cette proposition</h2>
-      <p>Ce site statique est conçu pour être servi par GitHub Pages à partir du dépôt du projet. L’hébergeur du site historique (WordPress / nginx sur sczi-renov38.fr) n’est pas nommé dans les mentions d’origine.</p>
+      <h2>Hébergement</h2>
+      <p>Ce site est hébergé par GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
 
       <h2>Données personnelles</h2>
       <p>La société SCHUBERT COUVERTURE ZINGUERIE n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord ; elles servent à vous adresser des courriers, des brochures, des devis ou à vous contacter.</p>
       <p>Les informations recueillies bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 6 janvier 1978. Droit d’accès, de rectification, d’opposition et de suppression sur simple demande à SCHUBERT COUVERTURE ZINGUERIE, 4290 route Napoléon — 38320 Brié-et-Angonnes.</p>
       <p>La société peut procéder à des analyses statistiques non nominatives et en informer des tiers (organismes d’évaluation de fréquentation) sous forme résumée et non nominative.</p>
-      <p>Cette proposition statique n’installe pas, par défaut, de cookies de mesure d’audience. Le bandeau cookies du site WordPress actuel n’est donc pas reproduit tant qu’aucun traceur n’est ajouté.</p>
+      <p>Ce site n’installe pas de cookies de mesure d’audience.</p>
 
       <h2>Création graphique</h2>
-      <p>La création graphique du site historique a été réalisée par Thomas BONSIRVEN. La présente refonte est une proposition de site statique distincte.</p>
+      <p>Création graphique : Thomas BONSIRVEN.</p>
 
       <h2>Liens hypertexte</h2>
       <p>La société SCHUBERT COUVERTURE ZINGUERIE ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu.</p>
 
-      <h2>Propriété des photographies</h2>
-      <p>Les photos de chantiers proviennent de la médiathèque de sczi-renov38.fr. Les photos de stock (Unsplash, Pexels) sont créditées dans <a href="assets/img/stock/CREDITS.txt">assets/img/stock/CREDITS.txt</a>.</p>
+      <h2>Photographies</h2>
+      <p>Les crédits photographiques et les mentions d’origine sont regroupés sur la page <a href="credits.html">Crédits & informations</a>.</p>
+    </div>
+  </section>
+""",
+)
+
+page(
+    "credits.html",
+    "Crédits & informations — SCZI",
+    "Crédits photographiques et informations encore à fournir pour le site SCZI.",
+    "credits",
+    body="""
+  <section class="page-hero wrap">
+    <p class="kicker">Documentation interne</p>
+    <h1>Crédits & informations</h1>
+    <p class="lede">Page hors parcours client : crédits des photos de stock (obligation légale) et liste de ce qui reste à fournir. Les pages publiques n’affichent que le texte destiné aux visiteurs.</p>
+  </section>
+  <section class="section section-alt">
+    <div class="wrap" style="max-width:48rem">
+      <h2>Crédits photographiques, par page</h2>
+      <p>Les photos de chantiers (lucarnes, Velux, sarking, Eybens, Saint-Nazaire, etc.) proviennent des archives SCZI. Les visuels de stock ci-dessous sont des copies locales, licences Unsplash / Pexels.</p>
+      <h3>Accueil, hub Services, Isolation combles</h3>
+      <ul>
+        <li><code>isolation-laine.jpg</code> — Pexels, Karolina Grabowska — <a href="https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg">source</a></li>
+      </ul>
+      <h3>Zone d’intervention</h3>
+      <ul>
+        <li><code>paysage-alpes.jpg</code> — Pexels, James Wheeler — <a href="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg">source</a> (photo et fond de la carte)</li>
+      </ul>
+      <h3>Autres photos de stock du dépôt (non affichées sur les pages publiques)</h3>
+      <ul>
+        <li>Unsplash : Quin Stevenson, Annika Gordon, Daniel McCullough, Dan Gold, R ARCHITECTURE, Daniel Hjalmarsson</li>
+        <li>Pexels : Pixabay, Bin Zhang, Kiwihug, Vecislavas Popa, Blue Bird, Binyamin Mellish</li>
+      </ul>
+      <p>Liste détaillée : <a href="assets/img/stock/CREDITS.txt">assets/img/stock/CREDITS.txt</a>.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap" style="max-width:48rem">
+      <h2>Informations encore à fournir</h2>
+      <ol>
+        <li>E-mail professionnel</li>
+        <li>Identifiant Formspree (remplacer <code>xxxxxxxx</code> dans <code>contact.html</code>) ou adresse mailto définitive</li>
+        <li>Horaires d’accueil / d’appel</li>
+        <li>Numéros de certificat Qualibat et RGE</li>
+        <li>Aides actuelles (MaPrimeRénov’, CEE, TVA) à la place de l’ancien crédit d’impôt 30 %</li>
+        <li>Tarifs actualisés (le 65 €/m² date d’environ 2018)</li>
+        <li>Légendes des photos de chantier encore sans commune ni date</li>
+        <li>Réseaux sociaux (les anciens liens du thème étaient factices)</li>
+        <li>Forme juridique, capital, TVA intra, assurance décennale</li>
+        <li>Avis clients (aucun n’est inventé ici)</li>
+        <li>Hébergeur à confirmer si le domaine sczi-renov38.fr est recollé</li>
+        <li>Métaux de zinguerie au catalogue, garanties de patine</li>
+        <li>Marque d’isolant et avis technique pour le soufflage</li>
+      </ol>
     </div>
   </section>
 """,
@@ -1024,6 +1052,7 @@ pages_urls = [
     "zone-intervention.html",
     "contact.html",
     "mentions-legales.html",
+    "credits.html",
     "services/index.html",
     "services/toiture.html",
     "services/isolation-sarking.html",

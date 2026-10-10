@@ -21,10 +21,11 @@ https://thomasbonsirven.github.io/sczi38/
 | `services/isolation-combles.html` | Combles perdus, tableau laine de roche |
 | `services/velux.html` | Pose, remplacement, jumelage Velux |
 | `services/zinguerie.html` | Cheminées, chéneaux, rives, joints debout |
-| `realisations.html` | Galerie des photos du site actuel |
+| `realisations.html` | Galerie des chantiers |
 | `zone-intervention.html` | De Noyarey à Crolles, via Brié-et-Angonnes et Grenoble |
-| `contact.html` | Formulaire de devis (Formspree + repli mailto) |
-| `mentions-legales.html` | Mentions reprises et nettoyées |
+| `contact.html` | Formulaire de devis |
+| `mentions-legales.html` | Mentions légales |
+| `credits.html` | Crédits photos et informations à fournir (lien discret en pied de page) |
 | `404.html` | Page d’erreur GitHub Pages |
 | `sitemap.xml` / `robots.txt` | SEO |
 
@@ -63,9 +64,9 @@ Crawl de https://sczi-renov38.fr/ (WordPress Flatsome, sitemap Rank Math, API RE
 
 ---
 
-## Placeholders à compléter (bandeaux jaunes sur le site)
+## Placeholders à compléter
 
-Rien de ce qui suit n’était publié de façon fiable sur sczi-renov38.fr :
+Ces points ne figurent plus sur les pages publiques : ils sont listés ici et sur `credits.html` (lien « Crédits & informations » en pied de page). Rien de ce qui suit n’était publié de façon fiable sur sczi-renov38.fr :
 
 1. **E-mail professionnel** (le thème pointe vers `mailto:your@email`)
 2. **Formspree** : remplacer `https://formspree.io/f/xxxxxxxx` dans `contact.html`
@@ -73,7 +74,7 @@ Rien de ce qui suit n’était publié de façon fiable sur sczi-renov38.fr :
 4. **Numéros de certificat Qualibat / RGE** (la certification Qualibat 2016–2026 est confirmée ; les n° ne sont pas encore publiés)
 5. **Aides actuelles** (MaPrimeRénov’, CEE, TVA) à la place du « crédit d’impôt 30 % »
 6. **Tarifs actualisés** (le 65 €/m² date de la page Toiture ~2018)
-7. **Légendes** des photos encore titrées « Chantier SCZI »
+7. **Légendes** des photos de chantier encore sans commune ni date
 8. **Réseaux sociaux** (liens du thème : `http://url`)
 9. **Forme juridique, capital, TVA intra, assurance décennale**
 10. **Avis clients** : aucun sur le site actuel — volontairement absents ici
@@ -85,7 +86,7 @@ Dans le JSON-LD `RoofingContractor`, les champs sourcés (nom, téléphone, adre
 
 ## Images de stock
 
-Fichiers dans `assets/img/stock/`, crédits dans `assets/img/stock/CREDITS.txt` (Unsplash et Pexels, licences libres, copies locales). Elles complètent les vrais chantiers (combles, atmosphère alpine) sans se faire passer pour des photos SCZI.
+Fichiers dans `assets/img/stock/`. Crédits légaux sur `credits.html` (par page) et dans `assets/img/stock/CREDITS.txt` (Unsplash et Pexels, licences libres, copies locales). Elles complètent les vrais chantiers (combles, atmosphère alpine) sans se faire passer pour des photos SCZI.
 
 ---
 

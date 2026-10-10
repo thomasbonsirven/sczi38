@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/styles.css?v=20261010c">
+  <link rel="stylesheet" href="./assets/css/styles.css?v=20261010d">
   
 </head><body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -79,15 +79,12 @@
   <section class="page-hero wrap">
     <p class="kicker">Contact</p>
     <h1>Un devis, à partir du toit que vous décrivez.</h1>
-    <p class="lede">Les champs sont ceux du formulaire Gravity Forms du site actuel. Aucun envoi n’est encore relié à une boîte mail réelle : voyez le bandeau ci-dessous.</p>
+    <p class="lede">Nom, téléphone, e-mail, lieu des travaux, budget estimé et besoins : nous revenons vers vous.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap contact-layout">
       <form class="form" id="devis-form" action="https://formspree.io/f/xxxxxxxx" method="POST">
-        <div class="todo-fill" id="form-fallback">
-          <strong>E-mail et Formspree à brancher</strong>
-          Sur sczi-renov38.fr, le lien e-mail du thème est <code>mailto:your@email</code> — ce n’est pas une adresse réelle. Remplacez <code>xxxxxxxx</code> par un identifiant Formspree, ou basculez le <code>action</code> vers un mailto définitif. En l’état, la soumission ouvre un brouillon vers une adresse factice.
-        </div>
+        <p class="form-notice" id="form-fallback" hidden></p>
         <div class="form-row">
           <label>Nom *<input name="nom" type="text" required autocomplete="name"></label>
           <label>Téléphone<input name="telephone" type="tel" autocomplete="tel"></label>
@@ -99,11 +96,11 @@
         </div>
         <label>Vos besoins *<textarea name="besoin" required></textarea></label>
         <label class="hp">Site web<input name="company_website" tabindex="-1" autocomplete="off"></label>
-        <p class="credit">En envoyant ce formulaire, vous acceptez d’être recontacté au sujet de votre projet. Voir les <a href="mentions-legales.html">mentions légales</a>.</p>
+        <p>En envoyant ce formulaire, vous acceptez d’être recontacté au sujet de votre projet. Voir les <a href="mentions-legales.html">mentions légales</a>.</p>
         <button class="btn btn-primary" type="submit">Envoyer</button>
       </form>
       <aside class="contact-card">
-        <h2>Coordonnées publiées</h2>
+        <h2>Coordonnées</h2>
         <dl>
           <dt>Téléphone</dt>
           <dd><a href="tel:+33438700394">04 38 70 03 94</a></dd>
@@ -111,10 +108,6 @@
           <dd><a href="https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes" rel="noopener noreferrer">4290 route Napoléon, 38320 Brié-et-Angonnes</a></dd>
           <dt>Gérant</dt>
           <dd>SCHUBERT Eric</dd>
-          <dt>E-mail</dt>
-          <dd class="todo-fill" style="color:#5c3b16">Non publié sur le site actuel.</dd>
-          <dt>Horaires</dt>
-          <dd class="todo-fill" style="color:#5c3b16">Non indiqués sur le site actuel.</dd>
         </dl>
       </aside>
     </div>
@@ -151,12 +144,12 @@
         <h3>Coordonnées</h3>
         <p><a href="https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes" rel="noopener noreferrer">4290 route Napoléon, 38320 Brié-et-Angonnes</a></p>
         <p><a href="tel:+33438700394">04 38 70 03 94</a></p>
-        <p class="todo-fill" style="color:#5c3b16"><strong>E-mail à compléter</strong> Non publié sur le site actuel (lien thème : your@email).</p>
         <p>SIRET 75106621800023<br>RCS Grenoble B 751 066 218</p>
       </div>
     </div>
     <div class="wrap legal">
-      <p>© SCZI — Schubert Couverture Zinguerie Isolation. Site statique de proposition, destiné à GitHub Pages.</p>
+      <p>© SCZI — Schubert Couverture Zinguerie Isolation</p>
+      <p class="footer-credits"><a href="./credits.html">Crédits & informations</a></p>
     </div>
   </footer>
   <div class="mobile-cta">
@@ -167,6 +160,6 @@
     <button type="button" data-close-lightbox aria-label="Fermer">×</button>
     <img alt="">
   </div>
-  <script src="./assets/js/main.js?v=20261010c"></script>
+  <script src="./assets/js/main.js?v=20261010d"></script>
 </body>
 </html>
