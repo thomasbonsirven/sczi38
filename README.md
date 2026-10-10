@@ -1,6 +1,6 @@
 # SCZI — proposition de site statique
 
-Site vitrine HTML/CSS/JS (sans étape de build) pour **Schubert Couverture Zinguerie Isolation** (SCZI), artisan couvreur à Seyssinet-Pariset (Isère, 38).
+Site vitrine HTML/CSS/JS (sans étape de build) pour **Schubert Couverture Zinguerie Isolation** (SCZI), artisan couvreur à Brié-et-Angonnes (Isère, 38).
 
 Proposition destinée à [GitHub Pages](https://docs.github.com/fr/pages), à partir du dépôt `thomasbonsirven/sczi38`. Elle remplace le WordPress actuel [sczi-renov38.fr](https://sczi-renov38.fr/), trop pauvre pour un métier de toiture : menus inachevés, e-mail factice, pages doublons Avada/Divi, mentions copiées-collées.
 
@@ -22,7 +22,7 @@ https://thomasbonsirven.github.io/sczi38/
 | `services/velux.html` | Pose, remplacement, jumelage Velux |
 | `services/zinguerie.html` | Cheminées, chéneaux, rives, joints debout |
 | `realisations.html` | Galerie des photos du site actuel |
-| `zone-intervention.html` | Seyssinet-Pariset, Grenoble, Eybens, Saint-Nazaire |
+| `zone-intervention.html` | De Noyarey à Crolles, via Brié-et-Angonnes et Grenoble |
 | `contact.html` | Formulaire de devis (Formspree + repli mailto) |
 | `mentions-legales.html` | Mentions reprises et nettoyées |
 | `404.html` | Page d’erreur GitHub Pages |
@@ -36,15 +36,17 @@ Les chemins sont **relatifs** : le site fonctionne à la racine d’un domaine o
 
 Crawl de https://sczi-renov38.fr/ (WordPress Flatsome, sitemap Rank Math, API REST).
 
-**Faits réutilisés uniquement s’ils y figuraient :**
+**Faits du site actuel, complétés par le gérant :**
 
 - Enseigne : Schubert Couverture Zinguerie Isolation / SCZI / SCZI Toiture / SCZI Bâtiment
 - Gérant : SCHUBERT Eric
-- Implantation : Seyssinet-Pariset, Isère, 5 km de Grenoble
-- Siège (mentions légales) : 666 Route de Saint Nizier, 38170 Seyssinet-Pariset
+- Implantation : Brié-et-Angonnes, Isère (38)
+- Siège (mentions légales, JSON-LD, pied de page) : 4290 route Napoléon, 38320 Brié-et-Angonnes
+- Zone d’intervention : de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble
 - Téléphone : 04 38 70 03 94
 - SIRET 75106621800023 · RCS Grenoble B 751 066 218
-- Plus de 10 ans d’expérience en zinguerie, charpente, sarking et Velux
+- Plus de 20 ans d’expérience en zinguerie, charpente, sarking et Velux
+- Certification Qualibat depuis 2016, renouvelée jusqu’en 2026 (10 ans de performance et de qualité sur chantier)
 - Supports : tuiles, tuiles écailles, bac acier, ardoise, joints debout
 - Normes DTU et CSTB
 - Ouvrages : abergements / habillages de cheminée, chéneaux, planches de rive, bandeaux, Velux
@@ -68,17 +70,16 @@ Rien de ce qui suit n’était publié de façon fiable sur sczi-renov38.fr :
 1. **E-mail professionnel** (le thème pointe vers `mailto:your@email`)
 2. **Formspree** : remplacer `https://formspree.io/f/xxxxxxxx` dans `contact.html`
 3. **Horaires** d’accueil / d’appel
-4. **Validité RGE / Qualibat 2026** (le badge en ligne est daté **2016–2017**) + numéros de certificat
+4. **Numéros de certificat Qualibat / RGE** (la certification Qualibat 2016–2026 est confirmée ; les n° ne sont pas encore publiés)
 5. **Aides actuelles** (MaPrimeRénov’, CEE, TVA) à la place du « crédit d’impôt 30 % »
 6. **Tarifs actualisés** (le 65 €/m² date de la page Toiture ~2018)
-7. **Rayon d’intervention** au-delà de Seyssinet / Grenoble / Eybens / Saint-Nazaire
-8. **Légendes** des photos encore titrées « Chantier SCZI »
-9. **Réseaux sociaux** (liens du thème : `http://url`)
-10. **Forme juridique, capital, TVA intra, assurance décennale**
-11. **Avis clients** : aucun sur le site actuel — volontairement absents ici
-12. Nom d’hébergeur définitif si le domaine sczi-renov38.fr est recollé
+7. **Légendes** des photos encore titrées « Chantier SCZI »
+8. **Réseaux sociaux** (liens du thème : `http://url`)
+9. **Forme juridique, capital, TVA intra, assurance décennale**
+10. **Avis clients** : aucun sur le site actuel — volontairement absents ici
+11. Nom d’hébergeur définitif si le domaine sczi-renov38.fr est recollé
 
-Dans le JSON-LD `RoofingContractor`, seuls les champs sourcés (nom, téléphone, adresse, gérant, métiers, zone Seyssinet / Grenoble / Isère) sont renseignés. Pas d’e-mail, pas de note Google, pas de geo inventée.
+Dans le JSON-LD `RoofingContractor`, les champs sourcés (nom, téléphone, adresse à Brié-et-Angonnes, gérant, métiers, zone Noyarey / Brié-et-Angonnes / Grenoble / Crolles / Isère) sont renseignés. Pas d’e-mail, pas de note Google, pas de geo inventée.
 
 ---
 

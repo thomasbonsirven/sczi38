@@ -879,6 +879,11 @@ textarea {
   color: #fff;
 }
 
+.map-placeholder a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .tag {
   display: inline-block;
   background: var(--red-soft);

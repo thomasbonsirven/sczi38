@@ -6,7 +6,11 @@ ROOT = Path("/workspace")
 SITE = "https://thomasbonsirven.github.io/sczi38"
 PHONE = "04 38 70 03 94"
 PHONE_TEL = "+33438700394"
-ADDRESS = "666 Route de Saint Nizier, 38170 Seyssinet-Pariset"
+STREET = "4290 route Napoléon"
+LOCALITY = "Brié-et-Angonnes"
+POSTAL = "38320"
+ADDRESS = f"{STREET}, {POSTAL} {LOCALITY}"
+MAPS_URL = "https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes"
 SIRET = "75106621800023"
 RCS = "Grenoble B 751 066 218"
 
@@ -105,15 +109,17 @@ SCHEMA = f"""<script type="application/ld+json">
   }},
   "address": {{
     "@type": "PostalAddress",
-    "streetAddress": "666 Route de Saint Nizier",
-    "addressLocality": "Seyssinet-Pariset",
-    "postalCode": "38170",
+    "streetAddress": "{STREET}",
+    "addressLocality": "{LOCALITY}",
+    "postalCode": "{POSTAL}",
     "addressRegion": "Isère",
     "addressCountry": "FR"
   }},
   "areaServed": [
-    {{"@type": "City", "name": "Seyssinet-Pariset"}},
+    {{"@type": "City", "name": "Noyarey"}},
+    {{"@type": "City", "name": "Brié-et-Angonnes"}},
     {{"@type": "City", "name": "Grenoble"}},
+    {{"@type": "City", "name": "Crolles"}},
     {{"@type": "AdministrativeArea", "name": "Isère"}}
   ],
   "knowsAbout": ["réfection de toiture", "isolation de toiture", "sarking", "combles perdus", "zinguerie", "charpente", "fenêtres de toit Velux"],
@@ -138,7 +144,7 @@ def header(prefix, current):
   <header class="site-header">
     <div class="topbar">
       <div class="wrap">
-        <span>Artisan couvreur à Seyssinet-Pariset — 5 km de Grenoble</span>
+        <span>Artisan couvreur à Brié-et-Angonnes — Isère (38)</span>
         <span>
           <a href="tel:{PHONE_TEL}">{PHONE}</a>
           · {ADDRESS}
@@ -173,7 +179,7 @@ def footer(prefix):
     <div class="wrap footer-grid">
       <div>
         <img src="{asset(prefix, 'img/logo/logo.png')}" width="180" alt="SCZI Toiture" style="width:140px;background:#fff;border-radius:8px;padding:6px;">
-        <p>Schubert Couverture Zinguerie Isolation — réfection de toiture, isolation et zinguerie à Seyssinet-Pariset (Isère).</p>
+        <p>Schubert Couverture Zinguerie Isolation — réfection de toiture, isolation et zinguerie à Brié-et-Angonnes (Isère).</p>
         <p>Gérant : SCHUBERT Eric</p>
       </div>
       <div>
@@ -198,7 +204,7 @@ def footer(prefix):
       </div>
       <div>
         <h3>Coordonnées</h3>
-        <p>{ADDRESS}</p>
+        <p><a href="{MAPS_URL}" rel="noopener noreferrer">{ADDRESS}</a></p>
         <p><a href="tel:{PHONE_TEL}">{PHONE}</a></p>
         <p class="todo-fill" style="color:#5c3b16"><strong>E-mail à compléter</strong> Non publié sur le site actuel (lien thème : your@email).</p>
         <p>SIRET {SIRET}<br>RCS {RCS}</p>
@@ -241,8 +247,8 @@ def page(path, title, description, current, body, prefix="./", image="assets/img
 
 page(
     "index.html",
-    "SCZI Toiture — Couverture, isolation et zinguerie à Seyssinet-Pariset (38)",
-    "Entreprise spécialisée dans la réfection de toiture, l’isolation de toiture et de combles, implantée à Seyssinet-Pariset dans l’Isère, à 5 km de Grenoble.",
+    "SCZI Toiture — Couverture, isolation et zinguerie à Brié-et-Angonnes (38)",
+    "Entreprise spécialisée dans la réfection de toiture, l’isolation de toiture et de combles, implantée à Brié-et-Angonnes dans l’Isère. Intervention de Noyarey à Crolles, via Grenoble.",
     "index.html",
     extra=SCHEMA,
     body=f"""
@@ -251,14 +257,14 @@ page(
     <div class="wrap hero-inner">
       <p class="kicker" style="color:#ffb4bc">Schubert Couverture Zinguerie Isolation</p>
       <h1>La toiture, l’isolation et le zinc, travaillés pour le climat de l’Isère.</h1>
-      <p class="lede">Notre entreprise spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable est implantée à Seyssinet-Pariset, à 5 km de Grenoble.</p>
+      <p class="lede">Notre entreprise spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable est implantée à Brié-et-Angonnes, dans l’Isère.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="contact.html">Demander un devis</a>
         <a class="btn btn-light" href="realisations.html">Voir les chantiers</a>
       </div>
       <div class="hero-facts">
-        <div><strong>10 ans+</strong><span>d’expérience en zinguerie, charpente, sarking et Velux</span></div>
-        <div><strong>Seyssinet</strong><span>base à 5 km de Grenoble, Isère (38)</span></div>
+        <div><strong>20 ans+</strong><span>d’expérience en zinguerie, charpente, sarking et Velux</span></div>
+        <div><strong>Brié-et-Angonnes</strong><span>siège en Isère (38), de Noyarey à Crolles</span></div>
         <div><strong>DTU / CSTB</strong><span>réponses adaptées aux tuiles, ardoise, bac acier, joints debout</span></div>
         <div><strong>Eric Schubert</strong><span>gérant, sur le chantier comme au devis</span></div>
       </div>
@@ -311,15 +317,15 @@ page(
   <section class="section">
     <div class="wrap">
       <p class="kicker">Qualifications</p>
-      <h2>RGE et Qualibat, tels qu’annoncés sur le site actuel.</h2>
-      <p>Le site indique : « Nous sommes désormais reconnue RGE et Qualibat, ce qui vous permet de bénéficier de crédit d’impôt et de la T.V.A à 5,5 %. » Les pages techniques mentionnaient aussi un crédit d’impôt de 30 % sur certains travaux d’isolation.</p>
+      <h2>Qualibat depuis 2016 : 10 ans de certification.</h2>
+      <p>SCZI est certifiée Qualibat depuis 2016. Cette certification, renouvelée jusqu’en 2026, atteste de <strong>10 ans de performance et de qualité</strong> sur les chantiers. Le site historique indiquait aussi : « Nous sommes désormais reconnue RGE et Qualibat, ce qui vous permet de bénéficier de crédit d’impôt et de la T.V.A à 5,5 %. » Les pages techniques mentionnaient un crédit d’impôt de 30 % sur certains travaux d’isolation.</p>
       <div class="badge-row" style="margin:1.2rem 0">
-        <img src="assets/img/badges/rge.png" alt="Badge Entreprise certifiée RGE Qualibat 2016-2017">
-        <img src="assets/img/badges/rge-2016.jpg" alt="Attestation RGE 2016 issue du site actuel">
+        <img src="assets/img/badges/rge.png" alt="Badge Entreprise certifiée Qualibat, certification depuis 2016">
+        <img src="assets/img/badges/rge-2016.jpg" alt="Attestation Qualibat / RGE issue du dossier d’entreprise">
       </div>
       <div class="todo-fill">
-        <strong>À compléter — validité actuelle des labels</strong>
-        Le badge publié sur le site date de 2016–2017. Les numéros de certificat RGE / Qualibat, la date de fin de validité et le statut 2026 ne figurent pas en ligne. Les aides (MaPrimeRénov’, CEE, TVA réduite) ont aussi évolué depuis la mention des « 30 % ». Faites vérifier le dossier avant tout devis fiscal.
+        <strong>À compléter — numéros de certificat et aides</strong>
+        Les numéros de certificat Qualibat et RGE ne figurent pas encore ici. Les aides (MaPrimeRénov’, CEE, TVA réduite) ont aussi évolué depuis la mention des « 30 % ». Faites vérifier le dossier avant tout devis fiscal.
       </div>
     </div>
   </section>
@@ -360,20 +366,20 @@ page(
 page(
     "a-propos.html",
     "L’entreprise SCZI — Schubert Couverture Zinguerie Isolation",
-    "SCZI, dirigée par SCHUBERT Eric, est implantée à Seyssinet-Pariset (38170). Plus de 10 ans d’expérience en toiture, isolation, zinguerie, charpente et Velux.",
+    "SCZI, dirigée par SCHUBERT Eric, est implantée à Brié-et-Angonnes (38320). Plus de 20 ans d’expérience en toiture, isolation, zinguerie, charpente et Velux.",
     "a-propos.html",
     body=f"""
   <section class="page-hero wrap">
     <p class="kicker">L’entreprise</p>
     <h1>Schubert Couverture Zinguerie Isolation.</h1>
-    <p class="lede">SCZI — aussi présentée comme SCZI Bâtiment et SCZI Toiture — est une entreprise de couverture basée à Seyssinet-Pariset, dans l’Isère.</p>
+    <p class="lede">SCZI — aussi présentée comme SCZI Bâtiment et SCZI Toiture — est une entreprise de couverture basée à Brié-et-Angonnes, dans l’Isère.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap split">
       <div>
         <h2>Un gérant, un métier de toiture.</h2>
         <p>Le site actuel identifie <strong>SCHUBERT Eric</strong> comme gérant. L’entreprise se présente comme spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable.</p>
-        <p>Elle met en avant plus de 10 ans d’expérience en <strong>zinguerie, charpente, sarking et Velux</strong>. Les supports de couverture cités sont les tuiles, les tuiles écailles, le bac acier, l’ardoise et les joints debout.</p>
+        <p>Elle met en avant plus de 20 ans d’expérience en <strong>zinguerie, charpente, sarking et Velux</strong>. Les supports de couverture cités sont les tuiles, les tuiles écailles, le bac acier, l’ardoise et les joints debout.</p>
         <p>Les travaux sont décrits comme réalisés dans le respect des normes <strong>DTU</strong> et <strong>CSTB</strong>.</p>
       </div>
       <img src="assets/img/chantiers/lucarne-pendant.jpg" alt="Compagnon SCZI au travail, t-shirt aux couleurs de l’entreprise">
@@ -431,8 +437,8 @@ def service_page(slug, title, description, kicker, h1, body_inner, image):
 
 service_page(
     "toiture",
-    "Toiture neuve et réfection — SCZI Seyssinet-Pariset",
-    "Réfection et toiture neuve en tuiles, tuiles écailles, ardoise, bac acier ou joints debout. Lucarnes, charpente associée. Artisan à Seyssinet-Pariset (38).",
+    "Toiture neuve et réfection — SCZI Brié-et-Angonnes",
+    "Réfection et toiture neuve en tuiles, tuiles écailles, ardoise, bac acier ou joints debout. Lucarnes, charpente associée. Artisan à Brié-et-Angonnes (38).",
     "Toiture",
     "Toits neufs, réfections, lucarnes : le travail se voit de la rue.",
     image="chantiers/lucarne-apres.jpg",
@@ -441,7 +447,7 @@ service_page(
     <div class="wrap split">
       <div>
         <p class="lede">Pour un bâtiment neuf, le site actuel compare toiture traditionnelle et toiture plate. Pour l’existant, il documente une réfection de toiture en tuile écaille avec lucarne en joint debout cuivre.</p>
-        <p>Les couvertures traitées : tuiles, tuiles écailles, bac acier, ardoise, joints debout. La charpente fait partie de l’expérience affichée (plus de 10 ans).</p>
+        <p>Les couvertures traitées : tuiles, tuiles écailles, bac acier, ardoise, joints debout. La charpente fait partie de l’expérience affichée (plus de 20 ans).</p>
       </div>
       <img src="../assets/img/chantiers/lucarne-apres.jpg" alt="Lucarne après réfection, tuiles écailles">
     </div>
@@ -514,7 +520,7 @@ service_page(
 service_page(
     "isolation-sarking",
     "Isolation toiture par l’extérieur et sarking — SCZI 38",
-    "Procédé de sarking et isolation par l’extérieur lors d’une réfection de toiture. Exemples de résistances thermiques R = 6,30. Seyssinet-Pariset, Isère.",
+    "Procédé de sarking et isolation par l’extérieur lors d’une réfection de toiture. Exemples de résistances thermiques R = 6,30. Brié-et-Angonnes, Isère.",
     "Isolation",
     "Isoler par-dessus la charpente, sans sacrifier la hauteur sous plafond.",
     image="chantiers/sarking-1054.jpg",
@@ -570,7 +576,7 @@ service_page(
 service_page(
     "isolation-combles",
     "Isolation des combles perdus par laine de roche soufflée — SCZI 38",
-    "Isolation par projection des combles non aménageables. Tableau de résistances thermiques de la laine de roche soufflée. Seyssinet-Pariset.",
+    "Isolation par projection des combles non aménageables. Tableau de résistances thermiques de la laine de roche soufflée. Brié-et-Angonnes.",
     "Combles perdus",
     "Quand le comble est trop bas pour vivre, on l’isole par le sol.",
     image="stock/isolation-laine.jpg",
@@ -631,7 +637,7 @@ service_page(
 service_page(
     "velux",
     "Installation et remplacement de Velux — SCZI Isère",
-    "Pose, remplacement, jumelage et création de fenêtres de toit Velux. Exemples de chantiers : transformation de débarras, duo 134/140. Seyssinet-Pariset.",
+    "Pose, remplacement, jumelage et création de fenêtres de toit Velux. Exemples de chantiers : transformation de débarras, duo 134/140. Brié-et-Angonnes.",
     "Velux",
     "Plus de lumière sous les combles, sans construire un chien assis.",
     image="chantiers/velux-apres.jpg",
@@ -696,7 +702,7 @@ service_page(
 
 service_page(
     "zinguerie",
-    "Zinguerie, chéneaux et abergements — SCZI Seyssinet-Pariset",
+    "Zinguerie, chéneaux et abergements — SCZI Brié-et-Angonnes",
     "Habillages et abergements de cheminée, chéneaux, planches de rive, bandeaux et joints debout. Savoir-faire zinc de SCZI en Isère.",
     "Zinguerie",
     "Le zinc tient l’eau là où les tuiles s’arrêtent.",
@@ -705,7 +711,7 @@ service_page(
   <section class="section section-alt">
     <div class="wrap split">
       <div>
-        <p class="lede">Le site d’accueil ne consacre pas de menu à la zinguerie, mais il en décrit déjà les ouvrages : habillages et abergements de cheminée, pose de chéneaux, habillages de planches de rive et de bandeaux, toitures en joints debout. L’expérience « plus de 10 ans en zinguerie » est affichée en tête.</p>
+        <p class="lede">Le site d’accueil ne consacre pas de menu à la zinguerie, mais il en décrit déjà les ouvrages : habillages et abergements de cheminée, pose de chéneaux, habillages de planches de rive et de bandeaux, toitures en joints debout. L’expérience « plus de 20 ans en zinguerie » est affichée en tête.</p>
         <p>La réfection de lucarne en joint debout cuivre montre le niveau d’ouvrage : le métal n’est pas un accessoire, c’est la ligne d’eau du toit.</p>
       </div>
       <img src="../assets/img/chantiers/lucarne-pendant.jpg" alt="Pose de zinc / cuivre en lucarne, chantier SCZI">
@@ -738,7 +744,7 @@ service_page(
 page(
     "services/index.html",
     "Services toiture, isolation, Velux et zinguerie — SCZI",
-    "Couverture, sarking, combles perdus, Velux et zinguerie : les métiers de SCZI à Seyssinet-Pariset, Isère.",
+    "Couverture, sarking, combles perdus, Velux et zinguerie : les métiers de SCZI à Brié-et-Angonnes, Isère.",
     "services",
     prefix="../",
     image="assets/img/chantiers/lucarne-pendant.jpg",
@@ -853,35 +859,32 @@ page(
 
 page(
     "zone-intervention.html",
-    "Zone d’intervention SCZI — Seyssinet-Pariset, Grenoble, Isère",
-    "SCZI est implantée à Seyssinet-Pariset, à 5 km de Grenoble. Chantiers documentés à Eybens et Saint-Nazaire. Zone d’intervention en Isère à préciser.",
+    "Zone d’intervention SCZI — de Noyarey à Crolles",
+    "SCZI intervient de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble. Siège : 4290 route Napoléon, 38320 Brié-et-Angonnes.",
     "zone-intervention.html",
     body=f"""
   <section class="page-hero wrap">
     <p class="kicker">Territoire</p>
-    <h1>Depuis Seyssinet-Pariset, vers les toits de l’agglomération.</h1>
-    <p class="lede">L’entreprise est implantée à Seyssinet-Pariset dans l’Isère, à 5 km de Grenoble. C’est la seule zone d’implantation officiellement écrite.</p>
+    <h1>De Noyarey à Crolles, en passant par Grenoble.</h1>
+    <p class="lede">SCZI intervient de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble. Le siège est à Brié-et-Angonnes, en Isère.</p>
   </section>
   <section class="section section-alt">
     <div class="wrap split">
       <div>
-        <h2>Ce qui est établi</h2>
+        <h2>Le corridor d’intervention</h2>
         <ul>
-          <li>Siège : {ADDRESS}</li>
-          <li>Positionnement : 5 km de Grenoble</li>
+          <li>Siège : <a href="{MAPS_URL}" rel="noopener noreferrer">{ADDRESS}</a></li>
+          <li>De <strong>Noyarey</strong> à <strong>Crolles</strong></li>
+          <li>En passant par <strong>Brié-et-Angonnes</strong> et <strong>Grenoble</strong></li>
           <li>Département : Isère (38)</li>
-          <li>Chantier nommé : toiture de maison à <strong>Eybens</strong></li>
-          <li>Chantier nommé : isolation et toiture à <strong>Saint-Nazaire</strong> (libellé du site, sans plus de précision administrative)</li>
+          <li>Chantiers documentés : toiture à <strong>Eybens</strong>, isolation et toiture à <strong>Saint-Nazaire</strong></li>
         </ul>
-        <div class="todo-fill">
-          <strong>Rayon d’intervention à compléter</strong>
-          Le site ne publie pas de liste de communes ni de rayon (20 km, 40 km, Chartreuse, Vercors, Grésivaudan…). N’indiquez ici que les secteurs où vous vous déplacez réellement.
-        </div>
       </div>
       <div class="map-placeholder">
         <div>
-          <strong>Seyssinet-Pariset</strong>
-          <p style="margin:0">666 Route de Saint Nizier · 38170</p>
+          <strong>Brié-et-Angonnes</strong>
+          <p style="margin:0">{STREET} · {POSTAL}</p>
+          <p style="margin:0.6rem 0 0"><a href="{MAPS_URL}" rel="noopener noreferrer">Ouvrir dans Google Maps</a></p>
         </div>
       </div>
     </div>
@@ -900,8 +903,8 @@ page(
 
 page(
     "contact.html",
-    "Devis toiture et isolation — contact SCZI Seyssinet-Pariset",
-    "Demandez un devis SCZI : nom, téléphone, e-mail, lieu des travaux, budget estimé, besoins. Téléphone 04 38 70 03 94. Seyssinet-Pariset (38).",
+    "Devis toiture et isolation — contact SCZI Brié-et-Angonnes",
+    "Demandez un devis SCZI : nom, téléphone, e-mail, lieu des travaux, budget estimé, besoins. Téléphone 04 38 70 03 94. Brié-et-Angonnes (38).",
     "contact.html",
     body=f"""
   <section class="page-hero wrap">
@@ -936,7 +939,7 @@ page(
           <dt>Téléphone</dt>
           <dd><a href="tel:{PHONE_TEL}">{PHONE}</a></dd>
           <dt>Siège</dt>
-          <dd>{ADDRESS}</dd>
+          <dd><a href="{MAPS_URL}" rel="noopener noreferrer">{ADDRESS}</a></dd>
           <dt>Gérant</dt>
           <dd>SCHUBERT Eric</dd>
           <dt>E-mail</dt>
@@ -953,7 +956,7 @@ page(
 page(
     "mentions-legales.html",
     "Mentions légales — Schubert Couverture Zinguerie Isolation",
-    "Mentions légales SCZI : SIRET 75106621800023, RCS Grenoble B 751 066 218, siège 666 Route de Saint Nizier, 38170 Seyssinet-Pariset, tél. 04 38 70 03 94.",
+    "Mentions légales SCZI : SIRET 75106621800023, RCS Grenoble B 751 066 218, siège 4290 route Napoléon, 38320 Brié-et-Angonnes, tél. 04 38 70 03 94.",
     "mentions",
     body=f"""
   <section class="page-hero wrap">
@@ -967,7 +970,7 @@ page(
       <p>La société SCHUBERT COUVERTURE ZINGUERIE<br>
       SIRET {SIRET}<br>
       RCS Ville tribunal : {RCS}<br>
-      Siège social : 666 Route de Saint Nizier — 38170 Seyssinet-Pariset<br>
+      Siège social : 4290 route Napoléon — 38320 Brié-et-Angonnes<br>
       Téléphone : {PHONE}<br>
       Directeur de la publication : la société SCHUBERT COUVERTURE ZINGUERIE</p>
       <div class="todo-fill"><strong>À compléter</strong> E-mail de contact, forme juridique, capital social, n° TVA, hébergeur de ce dépôt GitHub Pages (GitHub, Inc. — à confirmer dans vos CGU), responsable du traitement RGPD nommément.</div>
@@ -977,7 +980,7 @@ page(
 
       <h2>Données personnelles</h2>
       <p>La société SCHUBERT COUVERTURE ZINGUERIE n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord ; elles servent à vous adresser des courriers, des brochures, des devis ou à vous contacter.</p>
-      <p>Les informations recueillies bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 6 janvier 1978. Droit d’accès, de rectification, d’opposition et de suppression sur simple demande à SCHUBERT COUVERTURE ZINGUERIE, 666 Route de Saint Nizier — 38170 Seyssinet-Pariset.</p>
+      <p>Les informations recueillies bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 6 janvier 1978. Droit d’accès, de rectification, d’opposition et de suppression sur simple demande à SCHUBERT COUVERTURE ZINGUERIE, 4290 route Napoléon — 38320 Brié-et-Angonnes.</p>
       <p>La société peut procéder à des analyses statistiques non nominatives et en informer des tiers (organismes d’évaluation de fréquentation) sous forme résumée et non nominative.</p>
       <p>Cette proposition statique n’installe pas, par défaut, de cookies de mesure d’audience. Le bandeau cookies du site WordPress actuel n’est donc pas reproduit tant qu’aucun traceur n’est ajouté.</p>
 
