@@ -278,7 +278,7 @@ p {
   box-shadow: var(--shadow);
 }
 
-.site-nav ul {
+.site-nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -295,8 +295,88 @@ p {
   padding: 0.7rem 0.4rem;
 }
 
-.site-nav a[aria-current="page"] {
+.site-nav a[aria-current="page"],
+.has-submenu.is-current > .submenu-pair > a {
   color: var(--red);
+}
+
+.has-submenu {
+  position: relative;
+}
+
+.submenu-pair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.15rem;
+}
+
+.submenu-pair > a {
+  flex: 1;
+}
+
+.submenu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.submenu-toggle:hover,
+.submenu-toggle:focus-visible {
+  background: var(--paper-2);
+}
+
+.nav-chevron {
+  display: block;
+  transition: transform 0.28s ease;
+}
+
+.has-submenu.is-open > .submenu-pair .nav-chevron {
+  transform: rotate(180deg);
+}
+
+.submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0.35rem 0.7rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    max-height 0.32s ease,
+    opacity 0.24s ease,
+    visibility 0.32s ease,
+    transform 0.28s ease;
+}
+
+.has-submenu.is-open > .submenu {
+  max-height: 18rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.submenu a {
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.5rem 0.55rem;
+  border-radius: 8px;
+}
+
+.submenu a:hover {
+  background: var(--paper);
 }
 
 .btn.nav-cta {
@@ -799,6 +879,11 @@ textarea {
   color: #fff;
 }
 
+.map-placeholder a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .tag {
   display: inline-block;
   background: var(--red-soft);
@@ -877,7 +962,7 @@ textarea {
     box-shadow: none;
   }
 
-  .site-nav ul {
+  .site-nav > ul {
     flex-direction: row;
     align-items: center;
     gap: 0.2rem;
@@ -886,6 +971,60 @@ textarea {
   .site-nav a {
     padding: 0.45rem 0.65rem;
     font-size: 0.95rem;
+  }
+
+  .submenu-pair {
+    justify-content: flex-start;
+  }
+
+  .submenu-pair > a {
+    flex: none;
+    padding-right: 0.15rem;
+  }
+
+  .submenu-toggle {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .has-submenu:hover > .submenu-pair .nav-chevron,
+  .has-submenu:focus-within > .submenu-pair .nav-chevron {
+    transform: rotate(180deg);
+  }
+
+  .submenu {
+    position: absolute;
+    top: calc(100% - 0.1rem);
+    left: 0;
+    z-index: 50;
+    min-width: 15.75rem;
+    max-height: none;
+    overflow: visible;
+    padding: 0.5rem;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    transform: translateY(8px);
+    pointer-events: none;
+  }
+
+  .submenu::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+  }
+
+  .has-submenu:hover > .submenu,
+  .has-submenu:focus-within > .submenu,
+  .has-submenu.is-open > .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
   }
 
   .btn.nav-cta {
