@@ -299,7 +299,7 @@ p {
   color: var(--red);
 }
 
-.nav-cta {
+.btn.nav-cta {
   display: none;
 }
 
@@ -730,7 +730,9 @@ textarea {
 }
 
 .mobile-cta {
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
   bottom: 0;
   z-index: 30;
   display: grid;
@@ -847,6 +849,20 @@ textarea {
   }
 }
 
+@media (max-width: 719px) {
+  body {
+    padding-bottom: 4.75rem;
+  }
+
+  .hero {
+    min-height: 0;
+  }
+
+  .hero-inner {
+    padding: 4.25rem 0 5.75rem;
+  }
+}
+
 @media (min-width: 980px) {
   .nav-toggle {
     display: none;
@@ -872,7 +888,7 @@ textarea {
     font-size: 0.95rem;
   }
 
-  .nav-cta {
+  .btn.nav-cta {
     display: inline-flex;
   }
 
