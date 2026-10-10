@@ -47,7 +47,7 @@ Crawl de https://sczi-renov38.fr/ (WordPress Flatsome, sitemap Rank Math, API RE
 - Téléphone : 04 38 70 03 94
 - SIRET 75106621800023 · RCS Grenoble B 751 066 218
 - Plus de 20 ans d’expérience en zinguerie, charpente, sarking et Velux
-- Certification Qualibat depuis 2016, renouvelée jusqu’en 2026 (10 ans de performance et de qualité sur chantier)
+- Certification Qualibat depuis 2016, renouvelée jusqu’en 2026 (10 ans de performance et de qualité sur chantier) ; entreprise 100 % RGE
 - Supports : tuiles, tuiles écailles, bac acier, ardoise, joints debout
 - Normes DTU et CSTB
 - Ouvrages : abergements / habillages de cheminée, chéneaux, planches de rive, bandeaux, Velux
@@ -71,14 +71,15 @@ Ces points ne figurent plus sur les pages publiques : ils sont listés ici et su
 1. **E-mail professionnel** (le thème pointe vers `mailto:your@email`)
 2. **Formspree** : remplacer `https://formspree.io/f/xxxxxxxx` dans `contact.html`
 3. **Horaires** d’accueil / d’appel
-4. **Numéros de certificat Qualibat / RGE** (la certification Qualibat 2016–2026 est confirmée ; les n° ne sont pas encore publiés)
-5. **Aides actuelles** (MaPrimeRénov’, CEE, TVA) à la place du « crédit d’impôt 30 % »
-6. **Tarifs actualisés** (le 65 €/m² date de la page Toiture ~2018)
-7. **Légendes** des photos de chantier encore sans commune ni date
-8. **Réseaux sociaux** (liens du thème : `http://url`)
-9. **Forme juridique, capital, TVA intra, assurance décennale**
-10. **Avis clients** : aucun sur le site actuel — volontairement absents ici
-11. Nom d’hébergeur définitif si le domaine sczi-renov38.fr est recollé
+4. **Numéros de certificat Qualibat / RGE** (la certification Qualibat 2016–2026 et le 100 % RGE sont confirmés ; les n° ne sont pas encore publiés)
+5. **Macarons Qualibat RGE 2018 à 2026** — seuls **2016** (`rge-2016.jpg`) et **2016–2017** (`rge.png`) ont été trouvés (médiathèque WordPress de sczi-renov38.fr, 16 pages, 91 médias, et `assets/img/badges/`). Ne pas fabriquer d’images.
+6. **Barèmes chiffrés des aides** (MaPrimeRénov’, CEE, éco-PTZ, TVA 5,5 % sont cités sur l’accueil, sans montants)
+7. **Tarifs actualisés** (le 65 €/m² date de la page Toiture ~2018)
+8. **Légendes** des photos de chantier encore sans commune ni date
+9. **Réseaux sociaux** (liens du thème : `http://url`)
+10. **Forme juridique, capital, TVA intra, assurance décennale**
+11. **Avis clients** : aucun sur le site actuel — volontairement absents ici
+12. Nom d’hébergeur définitif si le domaine sczi-renov38.fr est recollé
 
 Dans le JSON-LD `RoofingContractor`, les champs sourcés (nom, téléphone, adresse à Brié-et-Angonnes, gérant, métiers, zone Noyarey / Brié-et-Angonnes / Grenoble / Crolles / Isère) sont renseignés. Pas d’e-mail, pas de note Google, pas de geo inventée.
 
