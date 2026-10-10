@@ -52,7 +52,21 @@
         <ul>
         <li><a href="../index.html">Accueil</a></li>
         <li><a href="../a-propos.html">L’entreprise</a></li>
-        <li><a href="../services/index.html" aria-current="page">Services</a></li>
+        <li class="has-submenu is-current">
+          <div class="submenu-pair">
+            <a href="../services/index.html">Services</a>
+            <button type="button" class="submenu-toggle" aria-expanded="false" aria-controls="submenu-services" aria-haspopup="true" aria-label="Afficher le sous-menu Services">
+              <svg class="nav-chevron" viewBox="0 0 12 8" width="12" height="8" aria-hidden="true" focusable="false"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <ul class="submenu" id="submenu-services">
+            <li><a href="../services/toiture.html">Toiture</a></li>
+            <li><a href="../services/isolation-sarking.html">Isolation sarking</a></li>
+            <li><a href="../services/velux.html">Velux</a></li>
+            <li><a href="../services/isolation-combles.html" aria-current="page">Combles perdus</a></li>
+            <li><a href="../services/zinguerie.html">Zinguerie</a></li>
+          </ul>
+        </li>
         <li><a href="../realisations.html">Réalisations</a></li>
         <li><a href="../zone-intervention.html">Zone d’intervention</a></li>
         <li><a href="../contact.html">Devis</a></li>
