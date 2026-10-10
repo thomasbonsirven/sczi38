@@ -807,6 +807,26 @@ textarea {
   padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem 1.5rem;
+}
+
+.footer-credits a {
+  color: #9a8f84;
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.footer-credits a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.form-notice {
+  margin: 0 0 0.8rem;
 }
 
 .mobile-cta {

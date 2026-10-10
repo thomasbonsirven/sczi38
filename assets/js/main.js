@@ -93,7 +93,6 @@
   if (form) {
     form.addEventListener("submit", function (event) {
       var action = form.getAttribute("action") || "";
-      var emailField = form.querySelector("[name='email']");
       var honey = form.querySelector("[name='company_website']");
       if (honey && honey.value) {
         event.preventDefault();
@@ -101,39 +100,12 @@
       }
       if (action.indexOf("YOUR_FORM_ID") !== -1 || action.indexOf("formspree.io/f/xxxxxxxx") !== -1) {
         event.preventDefault();
-        var dest = "EMAIL_A_COMPLETER@exemple.fr";
-        var nom = (form.querySelector("[name='nom']") || {}).value || "";
-        var tel = (form.querySelector("[name='telephone']") || {}).value || "";
-        var mail = emailField ? emailField.value : "";
-        var lieu = (form.querySelector("[name='lieu']") || {}).value || "";
-        var budget = (form.querySelector("[name='budget']") || {}).value || "";
-        var besoin = (form.querySelector("[name='besoin']") || {}).value || "";
-        var body = [
-          "Nom : " + nom,
-          "Téléphone : " + tel,
-          "E-mail : " + mail,
-          "Lieu des futurs travaux : " + lieu,
-          "Budget estimé : " + budget,
-          "",
-          "Besoins :",
-          besoin
-        ].join("\n");
-        var mailto =
-          "mailto:" +
-          dest +
-          "?subject=" +
-          encodeURIComponent("Demande de devis SCZI") +
-          "&body=" +
-          encodeURIComponent(body);
         var notice = document.getElementById("form-fallback");
         if (notice) {
           notice.hidden = false;
-          notice.innerHTML =
-            "<strong>Formulaire en mode brouillon.</strong> L’adresse e-mail professionnelle n’est pas publiée sur le site actuel (le lien du thème était un placeholder <code>your@email</code>). Remplacez l’identifiant Formspree dans le HTML, ou renseignez l’e-mail réel. Un brouillon mailto s’ouvre avec le destinataire factice <code>" +
-            dest +
-            "</code>.";
+          notice.textContent =
+            "Merci. Pour confirmer votre demande, appelez-nous au 04 38 70 03 94.";
         }
-        window.location.href = mailto;
       }
     });
   }
