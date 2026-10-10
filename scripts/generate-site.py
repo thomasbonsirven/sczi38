@@ -15,20 +15,48 @@ def asset(prefix, path):
     return f"{prefix}assets/{path}"
 
 
+SERVICE_LINKS = [
+    ("toiture", "Toiture", "services/toiture.html"),
+    ("isolation-sarking", "Isolation sarking", "services/isolation-sarking.html"),
+    ("velux", "Velux", "services/velux.html"),
+    ("isolation-combles", "Combles perdus", "services/isolation-combles.html"),
+    ("zinguerie", "Zinguerie", "services/zinguerie.html"),
+]
+SERVICE_KEYS = {"services"} | {key for key, _, _ in SERVICE_LINKS}
+
+
 def nav(prefix, current):
-    links = [
-        ("index.html", "Accueil", f"{prefix}index.html"),
-        ("a-propos.html", "L’entreprise", f"{prefix}a-propos.html"),
-        ("services", "Services", f"{prefix}services/index.html"),
-        ("realisations.html", "Réalisations", f"{prefix}realisations.html"),
-        ("zone-intervention.html", "Zone d’intervention", f"{prefix}zone-intervention.html"),
-        ("contact.html", "Devis", f"{prefix}contact.html"),
-    ]
-    items = []
-    for key, label, href in links:
+    def item(key, label, href):
         cur = ' aria-current="page"' if current == key else ""
-        items.append(f'<li><a href="{href}"{cur}>{label}</a></li>')
-    return "\n        ".join(items)
+        return f'<li><a href="{href}"{cur}>{label}</a></li>'
+
+    hub_cur = ' aria-current="page"' if current == "services" else ""
+    parent_class = "has-submenu"
+    if current in SERVICE_KEYS:
+        parent_class += " is-current"
+    children = []
+    for key, label, path in SERVICE_LINKS:
+        cur = ' aria-current="page"' if current == key else ""
+        children.append(f'            <li><a href="{prefix}{path}"{cur}>{label}</a></li>')
+    services = f"""<li class="{parent_class}">
+          <div class="submenu-pair">
+            <a href="{prefix}services/index.html"{hub_cur}>Services</a>
+            <button type="button" class="submenu-toggle" aria-expanded="false" aria-controls="submenu-services" aria-haspopup="true" aria-label="Afficher le sous-menu Services">
+              <svg class="nav-chevron" viewBox="0 0 12 8" width="12" height="8" aria-hidden="true" focusable="false"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <ul class="submenu" id="submenu-services">
+{chr(10).join(children)}
+          </ul>
+        </li>"""
+    return "\n        ".join([
+        item("index.html", "Accueil", f"{prefix}index.html"),
+        item("a-propos.html", "L’entreprise", f"{prefix}a-propos.html"),
+        services,
+        item("realisations.html", "Réalisations", f"{prefix}realisations.html"),
+        item("zone-intervention.html", "Zone d’intervention", f"{prefix}zone-intervention.html"),
+        item("contact.html", "Devis", f"{prefix}contact.html"),
+    ])
 
 
 def head(title, description, canonical, image, prefix, extra=""):
@@ -388,7 +416,7 @@ def service_page(slug, title, description, kicker, h1, body_inner, image):
         f"services/{slug}.html",
         title,
         description,
-        "services",
+        slug,
         prefix=prefix,
         image=f"assets/img/{image}",
         body=f"""
