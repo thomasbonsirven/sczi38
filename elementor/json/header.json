@@ -1,0 +1,146 @@
+{
+  "version": "0.4",
+  "title": "SCZI — En-tête",
+  "type": "header",
+  "content": [
+    {
+      "id": "01233c1b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_justify_content": "space-between",
+        "flex_wrap": "nowrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 16,
+          "column": "16",
+          "row": "16",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "10",
+          "right": "20",
+          "bottom": "10",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_color": "rgba(28,22,18,0.10)",
+        "border_width": {
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "unit": "px",
+          "isLinked": false
+        },
+        "min_height": {
+          "size": 72,
+          "unit": "px",
+          "sizes": []
+        },
+        "html_tag": "header"
+      },
+      "elements": [
+        {
+          "id": "5cfc29d3",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": "https://thomasbonsirven.github.io/sczi38/assets/img/logo/logo.png",
+              "id": "",
+              "alt": "SCZI Toiture",
+              "source": "url"
+            },
+            "image_size": "full",
+            "align": "start",
+            "image_border_radius": {
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "unit": "px",
+              "isLinked": true
+            },
+            "link_to": "custom",
+            "link": {
+              "url": "/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "width": {
+              "size": 140,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "7ffde041",
+          "elType": "widget",
+          "widgetType": "nav-menu",
+          "settings": {
+            "menu_name": "Menu principal",
+            "layout": "horizontal",
+            "align_items": "center",
+            "pointer": "underline",
+            "dropdown": "tablet",
+            "toggle": "burger",
+            "toggle_align": "right",
+            "color_menu_item": "#1C1612",
+            "color_menu_item_hover": "#C8102E",
+            "color_menu_item_active": "#C8102E",
+            "pointer_color_menu_item_hover": "#C8102E"
+          },
+          "elements": []
+        },
+        {
+          "id": "e503b1d9",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Demander un devis",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Zone d’intervention",
+  "type": "page",
+  "content": [
+    {
+      "id": "f35a3af6",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "cb1a1d21",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Territoire",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "f943fbf3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "De Noyarey à Crolles, en passant par Grenoble.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "7bb8f868",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>SCZI intervient de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble. Le siège est à Brié-et-Angonnes, en Isère.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "485c83ef",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "e182d93c",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Territoire",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "9f597029",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "De Noyarey à Crolles, en passant par Grenoble.",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "229135ef",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>SCZI intervient de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble. Le siège est à Brié-et-Angonnes, en Isère.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "cf6c3420",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "d1fd720e",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "ba969c7d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Le corridor d’intervention",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4ac68171",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "fcf94938",
+                        "text": "Siège : 4290 route Napoléon, 38320 Brié-et-Angonnes",
+                        "selected_icon": {
+                          "value": "fas fa-map-marker-alt",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "b126c33c",
+                        "text": "De Noyarey à Crolles",
+                        "selected_icon": {
+                          "value": "fas fa-route",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "8fd03305",
+                        "text": "En passant par Brié-et-Angonnes et Grenoble",
+                        "selected_icon": {
+                          "value": "fas fa-city",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "2425b11c",
+                        "text": "Département : Isère (38)",
+                        "selected_icon": {
+                          "value": "fas fa-map",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "f40d0dfc",
+                        "text": "Chantiers documentés : toiture à Eybens, isolation et toiture à Saint-Nazaire",
+                        "selected_icon": {
+                          "value": "fas fa-hammer",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "view": "traditional"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "fe431a61",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "98a4225b",
+                  "elType": "widget",
+                  "widgetType": "google_maps",
+                  "settings": {
+                    "address": "4290 route Napoléon, 38320 Brié-et-Angonnes",
+                    "zoom": {
+                      "size": 12,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "height": {
+                      "size": 320,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8cd38420",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><a href=\"https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes\">Ouvrir dans Google Maps</a></p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "97f487ed",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "ad951c4e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Pourquoi le climat local compte",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "6e27f88c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Tuiles écailles, zinc, sarking et laine soufflée répondent à des toits exposés au froid, à la neige et aux écarts thermiques de l’agglomération grenobloise. L’isolation par l’extérieur et les combles perdus y sont des leviers d’économie de chauffage.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "9ade1803",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": "https://thomasbonsirven.github.io/sczi38/assets/img/stock/paysage-alpes.jpg",
+              "id": "",
+              "alt": "Paysage de montagne en Isère",
+              "source": "url"
+            },
+            "image_size": "full",
+            "align": "start",
+            "image_border_radius": {
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "unit": "px",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "9717f1c8",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Indiquer le lieu des travaux",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Toiture",
+  "type": "page",
+  "content": [
+    {
+      "id": "bd6085a5",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "f0684430",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Toiture",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0e59859b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Toits neufs, réfections, lucarnes : le travail se voit de la rue.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "b6af6a09",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "3662bfc0",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "4d885079",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "c22f3d76",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Toiture neuve ou réfection : tuiles, tuiles écailles, bac acier, ardoise ou joints debout. Lucarne en joint debout cuivre, charpente associée.</p><p>La charpente fait partie de l’expérience de l’entreprise (plus de 20 ans).</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "87c36a90",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "1aed961f",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-apres.jpg",
+                      "id": "",
+                      "alt": "Lucarne en tuiles écailles",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2a23e40",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "517804ed",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "bac124b0",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "76075b9d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Toiture traditionnelle",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "27bc5451",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Une toiture traditionnelle en terre cuite a une durée de vie minimum de <strong>80 ans</strong>. D’autres matériaux allongent encore cette perspective :</p><ul><li>tuile en terre cuite écaille plate : <strong>90 ans</strong> au minimum ;</li><li>tuiles en ardoise : plus de <strong>120 ans</strong> de vie minimum.</li></ul><p><strong>Indication pour un bâtiment neuf</strong> — Surface de 120 m², toit sans Velux, sans cheminée, tuiles en terre cuite : <strong>à partir de 65 €/m²</strong>.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "127be62a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "83d64b83",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Toiture plate",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c01af238",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Une toiture plate ne contient pas de tuiles : on parle d’étanchéité bitume ou végétalisée.</p><h3>Étanchéité bitume</h3><p>Primaire d’accroche, puis déroulage et chauffage des rouleaux au chalumeau pour superposer les lés.</p><ul><li>dalle béton : maximum 40 ans avec un entretien très régulier ;</li><li>ossature bois : maximum 20 ans, avec possible reprise d’étanchéité.</li></ul><h3>Étanchéité végétalisée</h3><p>Surface végétale au-dessus du toit plat, membrane contre la corrosion liée aux racines. Entretien au minimum tous les 6 mois. Durée de vie : <strong>15 ans en moyenne</strong>.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "efa72fae",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "7c9c1e94",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Réfection de lucarne — avant / après",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "c583a115",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Réfection de toiture tuile écaille et lucarne en joint debout cuivre.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "19dcb22d",
+          "elType": "widget",
+          "widgetType": "gallery",
+          "settings": {
+            "gallery": [
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-pendant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-apres.jpg"
+              }
+            ],
+            "gallery_layout": "grid",
+            "columns": 3,
+            "columns_tablet": 2,
+            "columns_mobile": 2,
+            "gap": {
+              "size": 10,
+              "unit": "px",
+              "sizes": []
+            },
+            "link_to": "file",
+            "aspect_ratio": "4:3",
+            "open_lightbox": "yes",
+            "lazyload": "yes"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "4b21b3a4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "877e407f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Comment se déroule une réfection",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "e18dd5e1",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "e83abea5",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Échange et visite",
+                "description_text": "Vous décrivez le bâtiment, les désordres (fuites, tuiles, zinc) et le lieu des travaux. Une visite permet d’adapter la réponse au support réel.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "0bcb2710",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Choix du matériau",
+                "description_text": "Tuile, écaille, ardoise, bac acier ou joint debout : le choix suit le bâti, le budget et les règles de l’art DTU / CSTB.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "8c57377a",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Chantier",
+                "description_text": "Protection, dépose, reprise éventuelle de charpente, couverture, zinguerie de rive et d’ouvrage, contrôles d’étanchéité.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "0023e3a5",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Remise",
+                "description_text": "Relecture du chantier avec vous. La lucarne en tuile écaille et zinc montre le niveau de finition visé.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "508dfacc",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Questions fréquentes",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "812c8fcd",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "6b51dfef",
+                "tab_title": "Intervenez-vous seulement en neuf ?",
+                "tab_content": "Non. Nous réalisons aussi des réfections, comme la lucarne en tuile écaille ou la toiture à Eybens. Le neuf permet surtout de comparer durées de vie et un prix d’ordre de grandeur."
+              },
+              {
+                "_id": "a91b35e3",
+                "tab_title": "Travaillez-vous l’ardoise et le zinc ?",
+                "tab_content": "Oui : ardoise et joints debout sont listés parmi les réponses possibles, au même titre que tuiles et bac acier."
+              },
+              {
+                "_id": "be4ccbba",
+                "tab_title": "Peut-on isoler en même temps ?",
+                "tab_content": "C’est même le moment le plus logique : voir la page sarking. Isoler par l’extérieur évite de démonter les plafonds en rampant."
+              }
+            ],
+            "title_html_tag": "h3",
+            "faq_schema": "yes"
+          },
+          "elements": []
+        },
+        {
+          "id": "3b55816b",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Demander un devis toiture",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

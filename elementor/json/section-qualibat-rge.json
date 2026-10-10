@@ -1,0 +1,545 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Bloc Qualibat RGE",
+  "type": "container",
+  "content": [
+    {
+      "id": "60c9b4fc",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F3EBE0",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "ec7f85e1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qualibat · RGE",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "f86d4f62",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qualibat RGE depuis 2016",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 0.8,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "10eb6e3b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "10 ans de certification Qualibat, entreprise 100 % RGE.",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "bf6c2a3d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>SCZI est certifiée Qualibat depuis 2016, renouvelée jusqu’en 2026 : <strong>10 ans de performance et de qualité</strong> sur les chantiers. L’entreprise est <strong>100 % RGE</strong> (Reconnu Garant de l’Environnement).</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "c188c086",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "0842b8fd",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-certificate",
+                  "library": "fa-solid"
+                },
+                "title_text": "2016 – 2026",
+                "description_text": "Dix ans de certification Qualibat",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "eaa135c0",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-leaf",
+                  "library": "fa-solid"
+                },
+                "title_text": "100 % RGE",
+                "description_text": "Toute l’activité est reconnue RGE",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "29a2e17a",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Contrôle",
+                "description_text": "Qualification suivie, travaux dans les règles de l’art",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "4890abee",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Macarons Qualibat RGE",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 20,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "db8b1dad",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "08a3d6b4",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 200,
+                  "unit": "px",
+                  "sizes": []
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "5e59ff50",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/badges/rge-2016.jpg",
+                      "id": "",
+                      "alt": "Macaron Qualibat RGE, année 2016",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "size": 180,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "12a053f2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2016",
+                    "header_size": "h4",
+                    "title_color": "#1C1612",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 16,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bb5985d5",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 200,
+                  "unit": "px",
+                  "sizes": []
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "65b1b0d9",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/badges/rge.png",
+                      "id": "",
+                      "alt": "Macaron Qualibat RGE, années 2016 et 2017",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "size": 180,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "701eb030",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2016–2017",
+                    "header_size": "h4",
+                    "title_color": "#1C1612",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 16,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ab8d5e41",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ce que le RGE change pour vous",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 20,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "7c13df3b",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Un artisan RGE, c’est la condition pour demander les aides publiques à la rénovation énergétique. Les montants, plafonds et pièces à fournir <strong>dépendent du foyer et des règles en vigueur</strong> au moment du chantier : nous n’affichons pas de chiffres qui pourraient dater.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "358668ff",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "339c8a67",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-home",
+                  "library": "fa-solid"
+                },
+                "title_text": "MaPrimeRénov’",
+                "description_text": "Aide de l’État pour des travaux d’amélioration énergétique, sous conditions de ressources et de projet.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "d180fc71",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-bolt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Primes CEE",
+                "description_text": "Certificats d’économies d’énergie : une prime versée par les fournisseurs d’énergie, selon les gestes réalisés.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "963c53c2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-university",
+                  "library": "fa-solid"
+                },
+                "title_text": "Éco-prêt à taux zéro",
+                "description_text": "Emprunt sans intérêts pour financer des travaux de rénovation énergétique éligibles.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "28a9bde7",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-percent",
+                  "library": "fa-solid"
+                },
+                "title_text": "TVA 5,5 %",
+                "description_text": "Taux réduit sur les travaux de rénovation énergétique, lorsque les conditions fiscales sont réunies.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "733f2894",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-user-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Travail qualifié et contrôlé",
+                "description_text": "Le signe RGE atteste d’une entreprise formée, suivie, et d’un chantier déclaré selon le référentiel.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "9f3e692d",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-ruler-combined",
+                  "library": "fa-solid"
+                },
+                "title_text": "Conformité aux normes",
+                "description_text": "Les ouvrages restent réalisés dans le respect des DTU et des avis CSTB applicables au support.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {}
+}

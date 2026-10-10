@@ -1,0 +1,396 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Réalisations",
+  "type": "page",
+  "content": [
+    {
+      "id": "37a5ddce",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "bc79c6c0",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Réalisations",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "bd194050",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Les toits déjà photographiés.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "9c428abb",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Lucarnes, Velux, sarking, toitures à Eybens et Saint-Nazaire : une sélection de chantiers.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "025383dc",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "21059f53",
+          "elType": "widget",
+          "widgetType": "gallery",
+          "settings": {
+            "gallery": [
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-pendant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-apres.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-apres.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-installation.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-transformation.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-pose.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-aile-droite.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-aile-gauche.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-duo.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-1054.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-1016.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-1014.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-0685.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-0684.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-double-chevron.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-0083.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-0109.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/toiture-0664.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/toiture-0662.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/eybens-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/mur-pignon-1.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/mur-pignon-2.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0091.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0427.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0422.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0153.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0135.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0110.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0108.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0064.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0058.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0054.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0042.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0039.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0032.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0651.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0638.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0593.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0590.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0561.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0530.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0515.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0284.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0246.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0241.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0086.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0059.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0056.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0052.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0050.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0021.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0009.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/img-0003.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/dsc-0037.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/fullsizer.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sans-titre-5.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sans-titre-2.jpg"
+              }
+            ],
+            "gallery_layout": "grid",
+            "columns": 3,
+            "columns_tablet": 2,
+            "columns_mobile": 2,
+            "gap": {
+              "size": 10,
+              "unit": "px",
+              "sizes": []
+            },
+            "link_to": "file",
+            "aspect_ratio": "4:3",
+            "open_lightbox": "yes",
+            "lazyload": "yes"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

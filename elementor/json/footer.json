@@ -1,0 +1,516 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Pied de page",
+  "type": "footer",
+  "content": [
+    {
+      "id": "66d45e27",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#1C1612",
+        "html_tag": "footer"
+      },
+      "elements": [
+        {
+          "id": "32b28165",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "ac176483",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "f846ba28",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/logo/logo.png",
+                      "id": "",
+                      "alt": "SCZI Toiture",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "size": 120,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d4c8749d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Schubert Couverture Zinguerie Isolation — réfection de toiture, isolation et zinguerie à Brié-et-Angonnes (Isère).</p><p>Gérant : SCHUBERT Eric</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "f75c8034",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "029e5410",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 18,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ac2261b9",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "90755ba9",
+                        "text": "Toiture",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/toiture/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "68450db2",
+                        "text": "Isolation sarking",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/isolation-sarking/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "1333e902",
+                        "text": "Combles perdus",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/isolation-combles-perdus/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "44199dd3",
+                        "text": "Velux",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/installation-velux/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "f7c4584d",
+                        "text": "Zinguerie",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/zinguerie/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    ],
+                    "view": "traditional"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "494951a9",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "e9bdb4ce",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Entreprise",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 18,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "58270ca7",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "aa6c936a",
+                        "text": "L’entreprise",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/entreprise/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "d62e343a",
+                        "text": "Réalisations",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/realisations/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "f5aa608f",
+                        "text": "Zone d’intervention",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/zone-intervention/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "984edffc",
+                        "text": "Contact / devis",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/contact/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "50a91bc1",
+                        "text": "Mentions légales",
+                        "selected_icon": {
+                          "value": "fas fa-angle-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "/mentions-legales/",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    ],
+                    "view": "traditional"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "2dbb99b4",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "b62fbcf4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Coordonnées",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 18,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c34ac514",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "5c46b8ca",
+                        "text": "4290 route Napoléon, 38320 Brié-et-Angonnes",
+                        "selected_icon": {
+                          "value": "fas fa-map-marker-alt",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "146fba5c",
+                        "text": "04 38 70 03 94",
+                        "selected_icon": {
+                          "value": "fas fa-phone",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "tel:+33438700394",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "69cf500a",
+                        "text": "SIRET 75106621800023",
+                        "selected_icon": {
+                          "value": "fas fa-id-card",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "d912c58e",
+                        "text": "RCS Grenoble B 751 066 218",
+                        "selected_icon": {
+                          "value": "fas fa-building",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "view": "traditional"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dea8e92e",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between"
+          },
+          "elements": [
+            {
+              "id": "fac0866c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>© SCZI — Schubert Couverture Zinguerie Isolation</p>",
+                "text_color": "#C9C0B6",
+                "align": "start"
+              },
+              "elements": []
+            },
+            {
+              "id": "5c1f6a31",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Crédits & informations",
+                "link": {
+                  "url": "/credits/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "size": "xs",
+                "align": "right",
+                "background_background": "classic",
+                "background_color": "rgba(0,0,0,0)",
+                "button_text_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

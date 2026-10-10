@@ -1,0 +1,654 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Velux",
+  "type": "page",
+  "content": [
+    {
+      "id": "6cb7803a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "b0d234b6",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Velux",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "ea2140ff",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plus de lumière sous les combles, sans construire un chien assis.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "f0b731e0",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "da4971ec",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "c9ec3cb7",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "08faf0ab",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Les châssis de toit Velux apportent de la lumière et permettent d’aménager un comble, pour un coût moindre qu’un chien assis.</p><p>Un Velux vise un coefficient Uw de 1,1 (plus le Uw se rapproche de 1, meilleure est l’isolation thermique).</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "41386d76",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "f971bffa",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-apres.jpg",
+                      "id": "",
+                      "alt": "Fenêtre de toit Velux",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03a6ff58",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "46c55418",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "ef459cd9",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "1d4208be",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Integra Solar",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7f1feea1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Le modèle Integra Solar dispose de capteurs qui actionnent la ventilation en cas de trop forte humidité ou de fort taux de CO₂, et se referment à la détection de pluie. Une tablette Velux permet de programmer ouvertures, fermetures, volet extérieur, et d’autres appareils télécommandés Somfy, dans une limite de 60 appareils.</p><p>Un ancien châssis qui laisse passer trop de chaleur se remplace pour se rapprocher de ces performances.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b1120bfd",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "e5d7c7c0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Exemples de chantiers",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a1fc687b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul><li>Transformation d’un débarras en chambre et réalisation de chevrette de panne pour pose d’un Velux.</li><li>Aile droite : agrandissement d’un Velux 114 × 118 cm en jumelage après réfection totale de toiture ; aile gauche : changement de Velux. Isolation par l’extérieur en laine de bois 2 × 120 mm croisées, R = 6,30.</li><li>Création de Velux en duo 134 × 140 cm ainsi que 134 × 98 cm.</li></ul>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d909c791",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "1205d02a",
+          "elType": "widget",
+          "widgetType": "gallery",
+          "settings": {
+            "gallery": [
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-apres.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-transformation.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-pose.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-aile-droite.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-aile-gauche.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-duo.jpg"
+              }
+            ],
+            "gallery_layout": "grid",
+            "columns": 3,
+            "columns_tablet": 2,
+            "columns_mobile": 2,
+            "gap": {
+              "size": 10,
+              "unit": "px",
+              "sizes": []
+            },
+            "link_to": "file",
+            "aspect_ratio": "4:3",
+            "open_lightbox": "yes",
+            "lazyload": "yes"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "b9d80141",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "596d8ced",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Étapes",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "b83abd95",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "2c417ec6",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Cote et usage",
+                "description_text": "Chambre, bureau, simple éclairement : la cote (ex. 114/118) et le jumelage se décident avec la charpente.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "5c55387d",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Chevrette si besoin",
+                "description_text": "Une chevrette de panne se pose lorsque la structure ne permet pas une pose directe.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "4db81876",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Étanchéité",
+                "description_text": "Raccord de toiture, abergement, isolation périphérique : le châssis n’est pas une simple menuiserie posée dans un trou.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "220b31d9",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "FAQ",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "2a79fed1",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "1701e729",
+                "tab_title": "Peut-on poser un Velux sans refaire tout le toit ?",
+                "tab_content": "Oui : des remplacements isolés sont possibles. Un jumelage peut aussi accompagner une réfection totale."
+              },
+              {
+                "_id": "6dd5cba7",
+                "tab_title": "Pourquoi pas un chien assis ?",
+                "tab_content": "Le Velux est moins onéreux, tout en apportant lumière et confort d’aménagement."
+              }
+            ],
+            "title_html_tag": "h3",
+            "faq_schema": "yes"
+          },
+          "elements": []
+        },
+        {
+          "id": "90285dd2",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Demander un devis Velux",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

@@ -1,0 +1,1665 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Accueil",
+  "type": "page",
+  "content": [
+    {
+      "id": "bcba626f",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 16,
+          "column": "16",
+          "row": "16",
+          "isLinked": true
+        },
+        "flex_justify_content": "flex-end",
+        "min_height": {
+          "size": 560,
+          "unit": "px",
+          "sizes": []
+        },
+        "padding": {
+          "top": "80",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-pendant.jpg",
+          "id": "",
+          "alt": "Pose de zinc et de tuiles écailles en toiture",
+          "source": "url"
+        },
+        "background_size": "cover",
+        "background_position": "center center",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#1C1612",
+        "background_overlay_opacity": {
+          "size": 0.55,
+          "unit": "px",
+          "sizes": []
+        },
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "03089759",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Schubert Couverture Zinguerie Isolation",
+            "header_size": "p",
+            "title_color": "#FFB4BC",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "1107f089",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qualibat RGE depuis 2016",
+            "header_size": "p",
+            "title_color": "#FFFFFF",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 14,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase"
+          },
+          "elements": []
+        },
+        {
+          "id": "8b820725",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "La toiture, l’isolation et le zinc, travaillés pour le climat de l’Isère.",
+            "header_size": "h1",
+            "title_color": "#FFFFFF",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 42,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "f9e29d2c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Notre entreprise spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable est implantée à Brié-et-Angonnes, dans l’Isère.</p>",
+            "text_color": "#F1E8DE",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "981b9adc",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "05a06d92",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Demander un devis",
+                "link": {
+                  "url": "/contact/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "size": "md",
+                "align": "left",
+                "background_background": "classic",
+                "border_radius": {
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "background_color": "#C8102E",
+                "button_text_color": "#FFFFFF",
+                "button_background_hover_color": "#9A0C23",
+                "hover_color": "#FFFFFF"
+              },
+              "elements": []
+            },
+            {
+              "id": "01b787fa",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Voir les chantiers",
+                "link": {
+                  "url": "/realisations/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "size": "md",
+                "align": "left",
+                "background_background": "classic",
+                "border_radius": {
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "background_color": "#FFFFFF",
+                "button_text_color": "#1C1612",
+                "border_border": "solid",
+                "border_width": {
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "border_color": "rgba(28,22,18,0.18)"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ca87f35b",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "9395025e",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "20 ans+",
+                "description_text": "d’expérience en zinguerie, charpente, sarking et Velux",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "edb9f37d",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Brié-et-Angonnes",
+                "description_text": "siège en Isère (38), de Noyarey à Crolles",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "10196a5a",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "DTU / CSTB",
+                "description_text": "réponses adaptées aux tuiles, ardoise, bac acier, joints debout",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "9c8f62b6",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Eric Schubert",
+                "description_text": "gérant, sur le chantier comme au devis",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7ec2322a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "7ac9b83e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Métiers",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "da9ac997",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Quatre savoir-faire de toiture, un seul interlocuteur.",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "8e93aafd",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Couverture, isolation par l’extérieur, combles perdus, Velux et zinguerie : un seul interlocuteur pour le toit.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "f5034748",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "c2e62a9c",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-apres.jpg",
+                  "id": "",
+                  "alt": "Lucarne en tuiles écailles et zinc",
+                  "source": "url"
+                },
+                "title_text": "Toiture neuve et réfection",
+                "description_text": "Tuiles, tuiles écailles, bac acier, ardoise ou joints debout. Habillage de lucarnes, charpente associée.",
+                "title_size": "h3",
+                "link": {
+                  "url": "/toiture/",
+                  "is_external": "",
+                  "nofollow": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "02627d96",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-1054.jpg",
+                  "id": "",
+                  "alt": "Isolation de toiture par l’extérieur",
+                  "source": "url"
+                },
+                "title_text": "Sarking et isolation par l’extérieur",
+                "description_text": "Isoler lors d’une réfection sans démonter les plafonds en rampant, ni perdre de hauteur sous toiture.",
+                "title_size": "h3",
+                "link": {
+                  "url": "/isolation-sarking/",
+                  "is_external": "",
+                  "nofollow": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "92188fc9",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/stock/isolation-laine.jpg",
+                  "id": "",
+                  "alt": "Isolant en laine",
+                  "source": "url"
+                },
+                "title_text": "Combles perdus soufflés",
+                "description_text": "Isolation par projection de laine de roche, pour les volumes trop bas pour être aménagés.",
+                "title_size": "h3",
+                "link": {
+                  "url": "/isolation-combles-perdus/",
+                  "is_external": "",
+                  "nofollow": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "eac7f939",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-apres.jpg",
+                  "id": "",
+                  "alt": "Fenêtre de toit Velux",
+                  "source": "url"
+                },
+                "title_text": "Pose et remplacement de Velux",
+                "description_text": "Du simple remplacement au jumelage, jusqu’à la transformation d’un débarras en chambre.",
+                "title_size": "h3",
+                "link": {
+                  "url": "/installation-velux/",
+                  "is_external": "",
+                  "nofollow": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "432f0d2a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><a href=\"/zinguerie/\">Zinguerie : chéneaux, abergements, rives et joints debout →</a></p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "da9ff101",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "3e3f6495",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "6b7261c4",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "1b2db011",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Pourquoi SCZI",
+                    "header_size": "p",
+                    "title_color": "#C8102E",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 13,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "size": 1.6,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9edd402d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Un artisan local, des toitures pensées pour le massif.",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "341de619",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Que votre toiture soit en tuiles, en tuiles écailles, en bac acier, en ardoise ou en joints debout, nous vous répondons de manière adaptée et personnalisée, en respectant les normes DTU et CSTB.</p><p>Nous effectuons des habillages et abergements de cheminée, la pose de chéneaux, des habillages de planches de rive et de bandeaux. Nous assurons également la pose et le remplacement de vos fenêtres de toit Velux.</p><p><strong>Faites des économies de chauffage</strong> en pensant à l’isolation des combles non aménageables par laine de roche soufflée, ou à l’isolation des combles aménagés par l’extérieur.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "2b437a36",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-user",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Un gérant identifiable",
+                    "description_text": "SCHUBERT Eric, gérant. Le visage du chantier, pas un standard anonyme.",
+                    "title_size": "h3",
+                    "position": "block-start",
+                    "primary_color": "#C8102E",
+                    "title_color": "#1C1612",
+                    "description_color": "#6B625A"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9c95a579",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Des toits en Isère",
+                    "description_text": "Lucarnes, sarking, Velux : des chantiers à Eybens, Saint-Nazaire et dans l’agglomération grenobloise.",
+                    "title_size": "h3",
+                    "position": "block-start",
+                    "primary_color": "#C8102E",
+                    "title_color": "#1C1612",
+                    "description_color": "#6B625A"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "139ea252",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "d9a29822",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-pendant.jpg",
+                      "id": "",
+                      "alt": "Pose de zinc et de tuiles écailles sur une lucarne",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77571b81",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F3EBE0",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "0070476f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qualibat · RGE",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "06525199",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qualibat RGE depuis 2016",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 0.8,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "978af956",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "10 ans de certification Qualibat, entreprise 100 % RGE.",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "31689fb9",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>SCZI est certifiée Qualibat depuis 2016, renouvelée jusqu’en 2026 : <strong>10 ans de performance et de qualité</strong> sur les chantiers. L’entreprise est <strong>100 % RGE</strong> (Reconnu Garant de l’Environnement).</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "584d3def",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "fef452c7",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-certificate",
+                  "library": "fa-solid"
+                },
+                "title_text": "2016 – 2026",
+                "description_text": "Dix ans de certification Qualibat",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "040a4b77",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-leaf",
+                  "library": "fa-solid"
+                },
+                "title_text": "100 % RGE",
+                "description_text": "Toute l’activité est reconnue RGE",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "b62174da",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Contrôle",
+                "description_text": "Qualification suivie, travaux dans les règles de l’art",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "f69d2258",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Macarons Qualibat RGE",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 20,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "4f32e0d7",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "d7b9a8b4",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 200,
+                  "unit": "px",
+                  "sizes": []
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "0566b557",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/badges/rge-2016.jpg",
+                      "id": "",
+                      "alt": "Macaron Qualibat RGE, année 2016",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "size": 180,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6265e63e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2016",
+                    "header_size": "h4",
+                    "title_color": "#1C1612",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 16,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ba82ac4a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 200,
+                  "unit": "px",
+                  "sizes": []
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "3dce7954",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/badges/rge.png",
+                      "id": "",
+                      "alt": "Macaron Qualibat RGE, années 2016 et 2017",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "size": 180,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "909caff5",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2016–2017",
+                    "header_size": "h4",
+                    "title_color": "#1C1612",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 16,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "224267c7",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ce que le RGE change pour vous",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 20,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "94f10928",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Un artisan RGE, c’est la condition pour demander les aides publiques à la rénovation énergétique. Les montants, plafonds et pièces à fournir <strong>dépendent du foyer et des règles en vigueur</strong> au moment du chantier : nous n’affichons pas de chiffres qui pourraient dater.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "3f89982b",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "2b6e0a9e",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-home",
+                  "library": "fa-solid"
+                },
+                "title_text": "MaPrimeRénov’",
+                "description_text": "Aide de l’État pour des travaux d’amélioration énergétique, sous conditions de ressources et de projet.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "b0545a53",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-bolt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Primes CEE",
+                "description_text": "Certificats d’économies d’énergie : une prime versée par les fournisseurs d’énergie, selon les gestes réalisés.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "1ae8cc24",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-university",
+                  "library": "fa-solid"
+                },
+                "title_text": "Éco-prêt à taux zéro",
+                "description_text": "Emprunt sans intérêts pour financer des travaux de rénovation énergétique éligibles.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "b5a12ed9",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-percent",
+                  "library": "fa-solid"
+                },
+                "title_text": "TVA 5,5 %",
+                "description_text": "Taux réduit sur les travaux de rénovation énergétique, lorsque les conditions fiscales sont réunies.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "ce5f50dc",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-user-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Travail qualifié et contrôlé",
+                "description_text": "Le signe RGE atteste d’une entreprise formée, suivie, et d’un chantier déclaré selon le référentiel.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "30bdb476",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-ruler-combined",
+                  "library": "fa-solid"
+                },
+                "title_text": "Conformité aux normes",
+                "description_text": "Les ouvrages restent réalisés dans le respect des DTU et des avis CSTB applicables au support.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de43ff53",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "91c4e5a6",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Chantiers",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "9eed2f8a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Quelques toits déjà documentés.",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "514b97ee",
+          "elType": "widget",
+          "widgetType": "gallery",
+          "settings": {
+            "gallery": [
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-apres.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-avant.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/velux-apres.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-0685.jpg"
+              },
+              {
+                "id": "",
+                "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/eybens-avant.jpg"
+              }
+            ],
+            "gallery_layout": "grid",
+            "columns": 3,
+            "columns_tablet": 2,
+            "columns_mobile": 2,
+            "gap": {
+              "size": 10,
+              "unit": "px",
+              "sizes": []
+            },
+            "link_to": "file",
+            "aspect_ratio": "4:3",
+            "open_lightbox": "yes",
+            "lazyload": "yes"
+          },
+          "elements": []
+        },
+        {
+          "id": "a3440e82",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Galerie complète",
+            "link": {
+              "url": "/realisations/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#FFFFFF",
+            "button_text_color": "#1C1612",
+            "border_border": "solid",
+            "border_width": {
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "unit": "px",
+              "isLinked": true
+            },
+            "border_color": "rgba(28,22,18,0.18)"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "e1652bed",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#1C1612",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "cfe43f79",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "79944098",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "03917ff0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Devis",
+                    "header_size": "p",
+                    "title_color": "#FFB4BC",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 13,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "size": 1.6,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "1ff7e6a3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Expliquez le toit, on revient vers vous.",
+                    "header_size": "h2",
+                    "title_color": "#FFFFFF",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "58030758",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Décrivez le bâtiment, le lieu des travaux et vos besoins : nous revenons vers vous.</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7bba4bab",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Ouvrir le formulaire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "md",
+                    "align": "left",
+                    "background_background": "classic",
+                    "border_radius": {
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "background_color": "#C8102E",
+                    "button_text_color": "#FFFFFF",
+                    "button_background_hover_color": "#9A0C23",
+                    "hover_color": "#FFFFFF"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "3a161255",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "69e99fb4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "04 38 70 03 94",
+                    "header_size": "p",
+                    "title_color": "#FFFFFF",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 28,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8906dc3b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>4290 route Napoléon, 38320 Brié-et-Angonnes</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "1875a468",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Appeler",
+                    "link": {
+                      "url": "tel:+33438700394",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "md",
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "button_text_color": "#1C1612"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

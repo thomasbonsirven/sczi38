@@ -1,0 +1,567 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Isolation sarking",
+  "type": "page",
+  "content": [
+    {
+      "id": "a21f250f",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "cb726465",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Isolation",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "c25cfa0f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Isoler par-dessus la charpente, sans sacrifier la hauteur sous plafond.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "890665bf",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "75c27434",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "3c3ea7ed",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "2ea9036a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Le procédé permet, en cas de réfection de toiture, d’isoler dans les normes sans avoir à démonter les plafonds en rampant et/ou perdre de la hauteur due à l’épaisseur d’isolant.</p><p>Il vise une baisse de consommation d’énergie, en isolant au moment où la couverture est ouverte.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bdadba25",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "bbb36b1f",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-1054.jpg",
+                      "id": "",
+                      "alt": "Chantier d’isolation de toiture par l’extérieur",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2045f194",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "28123fd5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trois montages",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "6d777093",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Différentes solutions existent suivant la configuration de la charpente et le budget. Les exemples visent une résistance thermique <strong>R = 6,30</strong>.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "76dbd664",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "48e1df06",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-1014.jpg",
+                  "id": "",
+                  "alt": "Laine de bois et panneau sarking",
+                  "source": "url"
+                },
+                "title_text": "Laine de bois + sarking",
+                "description_text": "Laine de bois semi-rigide de 200 mm entre chevrons, panneau sarking de 60 mm. Objectif : supprimer les ponts thermiques des chevrons et les entrées d’air. R = 6,30.",
+                "title_size": "h3"
+              },
+              "elements": []
+            },
+            {
+              "id": "7a9c20c9",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-0685.jpg",
+                  "id": "",
+                  "alt": "Double couche de laine de bois 120 mm",
+                  "source": "url"
+                },
+                "title_text": "Deux fois 120 mm",
+                "description_text": "Laine de bois semi-rigide en deux épaisseurs de 120 mm entre chevrons, couches croisées. R = 6,30. Isolation et toiture à Saint-Nazaire.",
+                "title_size": "h3"
+              },
+              "elements": []
+            },
+            {
+              "id": "29b8f401",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/sarking-double-chevron.jpg",
+                  "id": "",
+                  "alt": "Double chevronnage et laine de verre",
+                  "source": "url"
+                },
+                "title_text": "Double chevronnage",
+                "description_text": "Isolation par l’extérieur avec double chevronnage, laine de verre 2 × 100 mm en GR32. R = 6,30. Isolation toiture à Eybens.",
+                "title_size": "h3"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "51b111d7",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "88fd2d49",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Déroulement type",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "3ad2eac4",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "adbe61b8",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Réfection programmée",
+                "description_text": "Le sarking a surtout du sens quand la couverture est ouverte. On isole alors « dans la foulée » du toit.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "b9ef1bef",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Lecture de la charpente",
+                "description_text": "Entre chevrons, hors chevrons, double chevronnage : le choix suit la structure et le budget.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "32d8cb16",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Continuité de l’enveloppe",
+                "description_text": "Les panneaux hors chevrons visent à casser le pont thermique du bois et les fuites d’air.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "2a49ba68",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Couverture et zinc",
+                "description_text": "La toiture se referme : tuiles, écailles, zinguerie. L’isolant n’est plus exposé.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "555862aa",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "FAQ",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "8ed4734f",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "731f9812",
+                "tab_title": "Faut-il vider les combles ?",
+                "tab_content": "Le sarking vise justement à éviter de démonter les plafonds en rampant."
+              },
+              {
+                "_id": "46ef4bac",
+                "tab_title": "Pourquoi R = 6,30 ?",
+                "tab_content": "C’est la résistance thermique visée sur les trois montages présentés."
+              }
+            ],
+            "title_html_tag": "h3",
+            "faq_schema": "yes"
+          },
+          "elements": []
+        },
+        {
+          "id": "1c5cf9c2",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Demander un devis isolation",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}
