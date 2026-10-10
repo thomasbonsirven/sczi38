@@ -173,6 +173,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 40;
+  overflow: visible;
   background: rgba(247, 242, 234, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
@@ -287,6 +288,11 @@ p {
   gap: 0.15rem;
 }
 
+.site-nav > ul > li {
+  list-style: none;
+  flex: 0 0 auto;
+}
+
 .site-nav a {
   display: block;
   text-decoration: none;
@@ -306,20 +312,24 @@ p {
 
 .submenu-pair {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   gap: 0.15rem;
 }
 
 .submenu-pair > a {
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .submenu-toggle {
+  appearance: none;
+  -webkit-appearance: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  flex: 0 0 auto;
   width: 2.4rem;
   height: 2.4rem;
   margin: 0;
@@ -327,6 +337,7 @@ p {
   border: 0;
   border-radius: 8px;
   background: transparent;
+  box-shadow: none;
   color: inherit;
   cursor: pointer;
 }
@@ -346,26 +357,15 @@ p {
 }
 
 .submenu {
+  display: none;
   list-style: none;
   margin: 0;
-  padding: 0 0 0.35rem 0.7rem;
-  display: flex;
+  padding: 0.15rem 0 0.5rem 0.7rem;
   flex-direction: column;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  visibility: hidden;
-  transition:
-    max-height 0.32s ease,
-    opacity 0.24s ease,
-    visibility 0.32s ease,
-    transform 0.28s ease;
 }
 
 .has-submenu.is-open > .submenu {
-  max-height: 18rem;
-  opacity: 1;
-  visibility: visible;
+  display: flex;
 }
 
 .submenu a {
@@ -962,8 +962,15 @@ textarea {
     box-shadow: none;
   }
 
+  .site-nav,
+  .nav-row,
+  .site-nav > ul {
+    overflow: visible;
+  }
+
   .site-nav > ul {
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     gap: 0.2rem;
   }
@@ -975,38 +982,43 @@ textarea {
 
   .submenu-pair {
     justify-content: flex-start;
+    gap: 0;
   }
 
   .submenu-pair > a {
-    flex: none;
-    padding-right: 0.15rem;
+    flex: 0 0 auto;
+    padding-right: 0.2rem;
   }
 
   .submenu-toggle {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: -0.15rem;
+    border-radius: 4px;
+    background: transparent;
   }
 
   .has-submenu:hover > .submenu-pair .nav-chevron,
-  .has-submenu:focus-within > .submenu-pair .nav-chevron {
+  .has-submenu:focus-within > .submenu-pair .nav-chevron,
+  .has-submenu.is-open > .submenu-pair .nav-chevron {
     transform: rotate(180deg);
   }
 
   .submenu {
+    display: none;
     position: absolute;
-    top: calc(100% - 0.1rem);
+    top: 100%;
     left: 0;
-    z-index: 50;
+    z-index: 60;
     min-width: 15.75rem;
-    max-height: none;
-    overflow: visible;
+    width: max-content;
+    flex-direction: column;
+    flex-wrap: nowrap;
     padding: 0.5rem;
     background: var(--white);
     border: 1px solid var(--line);
     border-radius: 14px;
     box-shadow: var(--shadow);
-    transform: translateY(8px);
-    pointer-events: none;
   }
 
   .submenu::before {
@@ -1021,10 +1033,7 @@ textarea {
   .has-submenu:hover > .submenu,
   .has-submenu:focus-within > .submenu,
   .has-submenu.is-open > .submenu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    pointer-events: auto;
+    display: flex;
   }
 
   .btn.nav-cta {

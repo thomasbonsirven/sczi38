@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path("/workspace")
 SITE = "https://thomasbonsirven.github.io/sczi38"
+ASSET_V = "20261010c"
 PHONE = "04 38 70 03 94"
 PHONE_TEL = "+33438700394"
 STREET = "4290 route Napoléon"
@@ -16,7 +17,10 @@ RCS = "Grenoble B 751 066 218"
 
 
 def asset(prefix, path):
-    return f"{prefix}assets/{path}"
+    url = f"{prefix}assets/{path}"
+    if path.startswith("css/") or path.startswith("js/"):
+        return f"{url}?v={ASSET_V}"
+    return url
 
 
 SERVICE_LINKS = [
