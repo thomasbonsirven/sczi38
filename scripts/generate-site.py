@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path("/workspace")
 SITE = "https://thomasbonsirven.github.io/sczi38"
-ASSET_V = "20261010d"
+ASSET_V = "20261010e"
 PHONE = "04 38 70 03 94"
 PHONE_TEL = "+33438700394"
 STREET = "4290 route Napoléon"
@@ -260,6 +260,7 @@ page(
     <img class="hero-bg" src="assets/img/chantiers/lucarne-pendant.jpg" width="900" height="1200" alt="Pose de zinc et de tuiles écailles en toiture">
     <div class="wrap hero-inner">
       <p class="kicker" style="color:#ffb4bc">Schubert Couverture Zinguerie Isolation</p>
+      <p class="hero-trust"><strong>Qualibat RGE depuis 2016</strong> Entreprise 100&nbsp;% RGE</p>
       <h1>La toiture, l’isolation et le zinc, travaillés pour le climat de l’Isère.</h1>
       <p class="lede">Notre entreprise spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable est implantée à Brié-et-Angonnes, dans l’Isère.</p>
       <div class="hero-actions">
@@ -317,15 +318,55 @@ page(
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section-qualibat" id="qualibat-rge">
     <div class="wrap">
-      <p class="kicker">Qualifications</p>
-      <h2>Qualibat depuis 2016 : 10 ans de certification.</h2>
-      <p>SCZI est certifiée Qualibat depuis 2016. Cette certification, renouvelée jusqu’en 2026, atteste de <strong>10 ans de performance et de qualité</strong> sur les chantiers.</p>
-      <div class="badge-row" style="margin:1.2rem 0">
-        <img src="assets/img/badges/rge.png" alt="Certification Qualibat">
-        <img src="assets/img/badges/rge-2016.jpg" alt="Attestation Qualibat">
+      <p class="kicker">Qualibat · RGE</p>
+      <h2>10 ans de certification Qualibat, entreprise 100&nbsp;% RGE.</h2>
+      <p class="lede">SCZI est certifiée Qualibat depuis 2016, renouvelée jusqu’en 2026 : <strong>10 ans de performance et de qualité</strong> sur les chantiers. L’entreprise est <strong>100&nbsp;% RGE</strong> (Reconnu Garant de l’Environnement).</p>
+      <div class="qualibat-highlights">
+        <p><strong>2016 – 2026</strong><span>Dix ans de certification Qualibat</span></p>
+        <p><strong>100&nbsp;% RGE</strong><span>Toute l’activité est reconnue RGE</span></p>
+        <p><strong>Contrôle</strong><span>Qualification suivie, travaux dans les règles de l’art</span></p>
       </div>
+      <h3 class="qualibat-frieze-title">Macarons Qualibat RGE</h3>
+      <div class="badge-frieze" role="list">
+        <figure role="listitem">
+          <img src="assets/img/badges/rge-2016.jpg" width="1489" height="2048" alt="Macaron Qualibat RGE, année 2016">
+          <figcaption>2016</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="assets/img/badges/rge.png" width="340" height="494" alt="Macaron Qualibat RGE, années 2016 et 2017">
+          <figcaption>2016–2017</figcaption>
+        </figure>
+      </div>
+      <h3>Ce que le RGE change pour vous</h3>
+      <p>Un artisan RGE, c’est la condition pour demander les aides publiques à la rénovation énergétique. Les montants, plafonds et pièces à fournir <strong>dépendent du foyer et des règles en vigueur</strong> au moment du chantier : nous n’affichons pas de chiffres qui pourraient dater.</p>
+      <ul class="rge-aids">
+        <li>
+          <h4>MaPrimeRénov’</h4>
+          <p>Aide de l’État pour des travaux d’amélioration énergétique, sous conditions de ressources et de projet.</p>
+        </li>
+        <li>
+          <h4>Primes CEE</h4>
+          <p>Certificats d’économies d’énergie : une prime versée par les fournisseurs d’énergie, selon les gestes réalisés.</p>
+        </li>
+        <li>
+          <h4>Éco-prêt à taux zéro</h4>
+          <p>Emprunt sans intérêts pour financer des travaux de rénovation énergétique éligibles.</p>
+        </li>
+        <li>
+          <h4>TVA 5,5&nbsp;%</h4>
+          <p>Taux réduit sur les travaux de rénovation énergétique, lorsque les conditions fiscales sont réunies.</p>
+        </li>
+        <li>
+          <h4>Travail qualifié et contrôlé</h4>
+          <p>Le signe RGE atteste d’une entreprise formée, suivie, et d’un chantier déclaré selon le référentiel.</p>
+        </li>
+        <li>
+          <h4>Conformité aux normes</h4>
+          <p>Les ouvrages restent réalisés dans le respect des DTU et des avis CSTB applicables au support.</p>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -1014,7 +1055,8 @@ page(
         <li>Identifiant Formspree (remplacer <code>xxxxxxxx</code> dans <code>contact.html</code>) ou adresse mailto définitive</li>
         <li>Horaires d’accueil / d’appel</li>
         <li>Numéros de certificat Qualibat et RGE</li>
-        <li>Aides actuelles (MaPrimeRénov’, CEE, TVA) à la place de l’ancien crédit d’impôt 30 %</li>
+        <li>Macarons / certificats Qualibat RGE des années <strong>2018 à 2026</strong> (inventaire complet du site sczi-renov38.fr — 16 pages, 91 médias — et de <code>assets/img/badges/</code> : seuls <strong>2016</strong> et <strong>2016–2017</strong> existent). Ne pas inventer d’images.</li>
+        <li>Barèmes chiffrés des aides (MaPrimeRénov’, CEE, éco-PTZ, TVA 5,5&nbsp;% sont cités sur l’accueil, sans montants)</li>
         <li>Tarifs actualisés (le 65 €/m² date d’environ 2018)</li>
         <li>Légendes des photos de chantier encore sans commune ni date</li>
         <li>Réseaux sociaux (les anciens liens du thème étaient factices)</li>
