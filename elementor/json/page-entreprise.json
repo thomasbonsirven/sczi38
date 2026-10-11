@@ -1,0 +1,714 @@
+{
+  "version": "0.4",
+  "title": "SCZI — L’entreprise",
+  "type": "page",
+  "content": [
+    {
+      "id": "e8c3633a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "41839ec3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "L’entreprise",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "956c19a9",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Schubert Couverture Zinguerie Isolation.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "75a4c390",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>SCZI — aussi présentée comme SCZI Bâtiment et SCZI Toiture — est une entreprise de couverture basée à Brié-et-Angonnes, dans l’Isère.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "4f6a314b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "dd38bd71",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "70e865c7",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "90790496",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Un gérant, un métier de toiture.",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f5bd1b52",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>SCHUBERT Eric</strong> dirige l’entreprise, spécialisée dans la réfection de toiture, l’isolation de toiture et de comble non aménageable.</p><p>Plus de 20 ans d’expérience en <strong>zinguerie, charpente, sarking et Velux</strong>. Les supports de couverture : tuiles, tuiles écailles, bac acier, ardoise et joints debout.</p><p>Les travaux sont réalisés dans le respect des normes <strong>DTU</strong> et <strong>CSTB</strong>.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "45aadaeb",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "e28ddccd",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-pendant.jpg",
+                      "id": "",
+                      "alt": "Pose de zinc sur une lucarne",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd936574",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "1550403a",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "cabc6af2",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "2a2cad51",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Identité légale",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "33478c36",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "8fd6a80b",
+                        "text": "Dénomination : SCHUBERT COUVERTURE ZINGUERIE",
+                        "selected_icon": {
+                          "value": "fas fa-briefcase",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "a237f912",
+                        "text": "Enseigne : Schubert Couverture Zinguerie Isolation (SCZI)",
+                        "selected_icon": {
+                          "value": "fas fa-signature",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "eea7d253",
+                        "text": "Siège : 4290 route Napoléon, 38320 Brié-et-Angonnes",
+                        "selected_icon": {
+                          "value": "fas fa-map-marker-alt",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "6945f581",
+                        "text": "SIRET : 75106621800023",
+                        "selected_icon": {
+                          "value": "fas fa-id-card",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "07867a5e",
+                        "text": "RCS : Grenoble B 751 066 218",
+                        "selected_icon": {
+                          "value": "fas fa-building",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "b62074d8",
+                        "text": "Téléphone : 04 38 70 03 94",
+                        "selected_icon": {
+                          "value": "fas fa-phone",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "tel:+33438700394",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      }
+                    ],
+                    "view": "traditional"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "df5a0208",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "be25f617",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Un métier, une enseigne",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d5ac0f02",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>SCZI — aussi SCZI Bâtiment et SCZI Toiture — intervient de Noyarey à Crolles, en passant par Brié-et-Angonnes et Grenoble.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0623ff83",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/logo/logo-visuel.jpg",
+                      "id": "",
+                      "alt": "Logo SCZI Toiture",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c783cdd1",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#1C1612",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "b25ba397",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "00a19aed",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4d94e203",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Devis",
+                    "header_size": "p",
+                    "title_color": "#FFB4BC",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 13,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "size": 1.6,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "19cd9f29",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Expliquez le toit, on revient vers vous.",
+                    "header_size": "h2",
+                    "title_color": "#FFFFFF",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "712bd029",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Décrivez le bâtiment, le lieu des travaux et vos besoins : nous revenons vers vous.</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "37db213a",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Ouvrir le formulaire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "md",
+                    "align": "left",
+                    "background_background": "classic",
+                    "border_radius": {
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "background_color": "#C8102E",
+                    "button_text_color": "#FFFFFF",
+                    "button_background_hover_color": "#9A0C23",
+                    "hover_color": "#FFFFFF"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "fc5a3572",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "8c36cc70",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "04 38 70 03 94",
+                    "header_size": "p",
+                    "title_color": "#FFFFFF",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 28,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8de4bfb9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>4290 route Napoléon, 38320 Brié-et-Angonnes</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "540e206b",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Appeler",
+                    "link": {
+                      "url": "tel:+33438700394",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "md",
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "button_text_color": "#1C1612"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

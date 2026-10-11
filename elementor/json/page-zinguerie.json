@@ -1,0 +1,527 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Zinguerie",
+  "type": "page",
+  "content": [
+    {
+      "id": "d25a151e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "74a06a0f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Zinguerie",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "58b442a9",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Le zinc tient l’eau là où les tuiles s’arrêtent.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "5df2809d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "5846de9c",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "99181dd5",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "51350e32",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Habillages et abergements de cheminée, pose de chéneaux, habillages de planches de rive et de bandeaux, toitures en joints debout : plus de 20 ans en zinguerie.</p><p>La réfection de lucarne en joint debout cuivre montre le niveau d’ouvrage : le métal n’est pas un accessoire, c’est la ligne d’eau du toit.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "82902109",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "11f44889",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/chantiers/lucarne-pendant.jpg",
+                      "id": "",
+                      "alt": "Pose de zinc sur une lucarne",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5f7f66dc",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "4db8e2ff",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "3736a1e2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Cheminées",
+                "description_text": "Habillages et abergements : le point singulier le plus fréquent des infiltrations, traité dans le respect des DTU.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "c653b6c6",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Chéneaux",
+                "description_text": "Pose de chéneaux pour collecter et évacuer les eaux pluviales, en cohérence avec la couverture.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "9e795a69",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Rives et bandeaux",
+                "description_text": "Habillages de planches de rive et de bandeaux : la finition du rampant, au vent et à la pluie de l’Isère.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "f15d6ec6",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Joints debout",
+                "description_text": "Couverture métallique (cuivre documenté sur une lucarne) lorsque le projet sort de la tuile classique.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "69781868",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "5e0077d7",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Pourquoi le zinc compte en montagne grenobloise",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "8caacdc3",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Neige, gel, fortes pluies : les points singuliers (lucarne, cheminée, rive) fatiguent avant le plein rampant. Un abergement juste, un chéneau dimensionné, une rive bien habillée prolongent la couverture — tuile ou ardoise.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "d643c9a7",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "1ba54110",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Relevé des ouvrages",
+                "description_text": "Cheminées, noues, rives, lucarnes : on liste les points d’eau avant de parler couleur de tuile.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "25631340",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Façonnage",
+                "description_text": "Le zinc et le cuivre se façonnent sur le chantier, pas seulement comme accessoires du commerce.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "78d2a271",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Raccord couverture",
+                "description_text": "Le métal se coud avec la tuile ou l’ardoise pour que l’eau n’ait qu’un chemin.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ab38ffd2",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Demander un devis zinguerie",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

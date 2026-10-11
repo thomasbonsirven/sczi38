@@ -1,0 +1,237 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Bandeau devis",
+  "type": "container",
+  "content": [
+    {
+      "id": "472e16d8",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#1C1612",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "60f15a33",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "0856b47a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "511f6441",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Devis",
+                    "header_size": "p",
+                    "title_color": "#FFB4BC",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 13,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "size": 1.6,
+                      "unit": "px",
+                      "sizes": []
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "98cf3cd3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Expliquez le toit, on revient vers vous.",
+                    "header_size": "h2",
+                    "title_color": "#FFFFFF",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6617bb3a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Décrivez le bâtiment, le lieu des travaux et vos besoins : nous revenons vers vous.</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "156d63eb",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Ouvrir le formulaire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "md",
+                    "align": "left",
+                    "background_background": "classic",
+                    "border_radius": {
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "background_color": "#C8102E",
+                    "button_text_color": "#FFFFFF",
+                    "button_background_hover_color": "#9A0C23",
+                    "hover_color": "#FFFFFF"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "06f88d3d",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "858bb782",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "04 38 70 03 94",
+                    "header_size": "p",
+                    "title_color": "#FFFFFF",
+                    "align": "start",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 28,
+                      "unit": "px",
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "424fe3e7",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>4290 route Napoléon, 38320 Brié-et-Angonnes</p>",
+                    "text_color": "#EFE7DB",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7f35bff6",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Appeler",
+                    "link": {
+                      "url": "tel:+33438700394",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "md",
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "button_text_color": "#1C1612"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {}
+}

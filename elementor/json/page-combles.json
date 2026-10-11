@@ -1,0 +1,485 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Combles perdus",
+  "type": "page",
+  "content": [
+    {
+      "id": "59a1ecf3",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "4ff06a93",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Combles perdus",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "714e6635",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Quand le comble est trop bas pour vivre, on l’isole par le sol.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "edf7d79a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "c803366b",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "4563df73",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "e58d141c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Le terme comble perdu désigne un espace insuffisant entre la dernière hauteur de plafond horizontale et la toiture du bâtiment.</p><p>Dans ce cas, l’isolation par projection reste la plus performante pour la rupture de pont thermique (pénétration dans les recoins, lame d’air entre couches) et d’un point de vue financier (gain de temps face aux rouleaux ou panneaux).</p><p>Isolation des combles non aménageables <strong>par laine de roche soufflée</strong>.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "a2ba2e51",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "e18c7449",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://thomasbonsirven.github.io/sczi38/assets/img/stock/isolation-laine.jpg",
+                      "id": "",
+                      "alt": "Isolant en laine",
+                      "source": "url"
+                    },
+                    "image_size": "full",
+                    "align": "start",
+                    "image_border_radius": {
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "unit": "px",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d1ab6fd4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "ad480804",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Fiche technique — laine de roche soufflée",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "4ef07159",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>À partir d’une résistance thermique de <strong>7</strong> (ligne mise en avant), l’épaisseur après tassement est de 315 mm.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "373ce576",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<table>\n<thead><tr><th>Ép. (mm)</th><th>Ép. après tassement (mm)</th><th>R (m².K/W)</th><th>Pouvoir couvrant (kg/m²)</th><th>Sacs / 100 m²</th><th>Up (W/m².K)</th></tr></thead>\n<tbody>\n<tr><td>95</td><td>90</td><td>2</td><td>2</td><td>9,6</td><td></td></tr>\n<tr><td>230</td><td>225</td><td>5</td><td>4,9</td><td>24,1</td><td>0,2</td></tr>\n<tr><td>275</td><td>270</td><td>6</td><td>5,8</td><td>28,9</td><td>0,16</td></tr>\n<tr><td>320</td><td>315</td><td>7</td><td>6,8</td><td>33,2</td><td>0,14</td></tr>\n<tr><td>365</td><td>360</td><td>8</td><td>7,8</td><td>38,5</td><td>0,12</td></tr>\n<tr><td>410</td><td>405</td><td>9</td><td>8,7</td><td>43,4</td><td></td></tr>\n<tr><td>455</td><td>450</td><td>10</td><td>9,7</td><td>48,2</td><td></td></tr>\n<tr><td>500</td><td>495</td><td>11</td><td>10,6</td><td>53</td><td></td></tr>\n<tr><td>545</td><td>540</td><td>12</td><td>11,6</td><td>57,8</td><td></td></tr>\n<tr><td>595</td><td>585</td><td>13</td><td>12,6</td><td>62,6</td><td></td></tr>\n<tr><td>640</td><td>630</td><td>14</td><td>13,5</td><td>67,5</td><td></td></tr>\n<tr><td>685</td><td>675</td><td>15</td><td>14,5</td><td>72,3</td><td></td></tr>\n</tbody>\n</table>\n"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "cf5d75e8",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "3cd1373b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Processus",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "7d34e943",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "5af81111",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Accès au comble",
+                "description_text": "Trappe, passage, état du plancher : on vérifie que le soufflage peut se faire sans tasser un plafond fragile.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "ead261d4",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Épaisseur cible",
+                "description_text": "Le tableau relie millimètres, tassement, résistance thermique R et nombre de sacs. La ligne R = 7 est mise en avant.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            },
+            {
+              "id": "b6057861",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_text": "Projection",
+                "description_text": "La laine de roche est soufflée pour garnir recoins et lames d’air, plus rapidement que des panneaux.",
+                "title_size": "h3",
+                "position": "block-start",
+                "primary_color": "#C8102E",
+                "title_color": "#1C1612",
+                "description_color": "#6B625A"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "9bf582c2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "FAQ",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "5921be4b",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "cd8a0272",
+                "tab_title": "Différence avec le sarking ?",
+                "tab_content": "Combles perdus = volume non habitable, isolation au sol du comble. Sarking = isolation par l’extérieur, souvent pour combles aménagés ou à préserver en hauteur."
+              },
+              {
+                "_id": "7176a761",
+                "tab_title": "Puis-je aménager plus tard ?",
+                "tab_content": "Si l’espace redevient habitable, la logique change : isolation des combles aménagés par l’extérieur (sarking)."
+              }
+            ],
+            "title_html_tag": "h3",
+            "faq_schema": "yes"
+          },
+          "elements": []
+        },
+        {
+          "id": "5c3fd356",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Demander un devis combles",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "size": "md",
+            "align": "left",
+            "background_background": "classic",
+            "border_radius": {
+              "top": "6",
+              "right": "6",
+              "bottom": "6",
+              "left": "6",
+              "unit": "px",
+              "isLinked": true
+            },
+            "background_color": "#C8102E",
+            "button_text_color": "#FFFFFF",
+            "button_background_hover_color": "#9A0C23",
+            "hover_color": "#FFFFFF"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

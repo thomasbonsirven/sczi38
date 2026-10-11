@@ -1,0 +1,376 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Devis / contact",
+  "type": "page",
+  "content": [
+    {
+      "id": "0835024e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "c5c03f76",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Contact",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "e1160db3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Un devis, à partir du toit que vous décrivez.",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "06f3f701",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Nom, téléphone, e-mail, lieu des travaux, budget estimé et besoins : nous revenons vers vous.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "ddd708e0",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "c2ce2e7b",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "c4bb24d5",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "156f8256",
+                  "elType": "widget",
+                  "widgetType": "form",
+                  "settings": {
+                    "form_name": "Devis SCZI",
+                    "form_fields": [
+                      {
+                        "_id": "8ca1e2b3",
+                        "custom_id": "nom",
+                        "field_type": "text",
+                        "field_label": "Nom",
+                        "placeholder": "",
+                        "required": "true",
+                        "width": "50",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      },
+                      {
+                        "_id": "672f8ff7",
+                        "custom_id": "telephone",
+                        "field_type": "tel",
+                        "field_label": "Téléphone",
+                        "placeholder": "",
+                        "required": "",
+                        "width": "50",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      },
+                      {
+                        "_id": "2f7a6dbe",
+                        "custom_id": "email",
+                        "field_type": "email",
+                        "field_label": "E-mail",
+                        "placeholder": "",
+                        "required": "true",
+                        "width": "100",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      },
+                      {
+                        "_id": "b9779b4b",
+                        "custom_id": "lieu",
+                        "field_type": "text",
+                        "field_label": "Lieu des futurs travaux",
+                        "placeholder": "",
+                        "required": "",
+                        "width": "50",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      },
+                      {
+                        "_id": "c7ef215a",
+                        "custom_id": "budget",
+                        "field_type": "text",
+                        "field_label": "Budget estimé",
+                        "placeholder": "",
+                        "required": "",
+                        "width": "50",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      },
+                      {
+                        "_id": "bc953d41",
+                        "custom_id": "besoin",
+                        "field_type": "textarea",
+                        "field_label": "Vos besoins",
+                        "placeholder": "",
+                        "required": "true",
+                        "width": "100",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      },
+                      {
+                        "_id": "8a137873",
+                        "custom_id": "mentions",
+                        "field_type": "acceptance",
+                        "field_label": "En envoyant ce formulaire, vous acceptez d’être recontacté au sujet de votre projet.",
+                        "placeholder": "",
+                        "required": "true",
+                        "width": "100",
+                        "allow_multiple_upload": "false",
+                        "field_options": ""
+                      }
+                    ],
+                    "button_text": "Envoyer",
+                    "button_size": "md",
+                    "button_align": "start",
+                    "submit_actions": [
+                      "email"
+                    ],
+                    "email_to": "admin@example.com",
+                    "email_subject": "Demande de devis SCZI",
+                    "success_message": "Merci. Pour confirmer votre demande, appelez-nous au 04 38 70 03 94.",
+                    "button_background_color": "#C8102E",
+                    "button_text_color": "#FFFFFF",
+                    "mark_required": "yes",
+                    "show_labels": "true",
+                    "input_size": "md"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "7e20e070",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "size": 100,
+                  "unit": "%",
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "eed54e63",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Coordonnées",
+                    "header_size": "h2",
+                    "title_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "96998d61",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "b0ec17ad",
+                        "text": "04 38 70 03 94",
+                        "selected_icon": {
+                          "value": "fas fa-phone",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "tel:+33438700394",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "4bde38bf",
+                        "text": "4290 route Napoléon, 38320 Brié-et-Angonnes",
+                        "selected_icon": {
+                          "value": "fas fa-map-marker-alt",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.google.com/maps/search/?api=1&query=4290+route+Napol%C3%A9on%2C+38320+Bri%C3%A9-et-Angonnes",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      {
+                        "_id": "c9ff689f",
+                        "text": "Gérant : SCHUBERT Eric",
+                        "selected_icon": {
+                          "value": "fas fa-user",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "view": "traditional"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "94b97b46",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Voir les <a href=\"/mentions-legales/\">mentions légales</a>.</p>",
+                    "text_color": "#1C1612",
+                    "align": "start"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

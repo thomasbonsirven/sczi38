@@ -1,0 +1,275 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Mentions légales",
+  "type": "page",
+  "content": [
+    {
+      "id": "91551502",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "2194ed4c",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Informations légales",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "cf58b74a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Mentions légales",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "6638f864",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Éditeur, hébergement et protection des données personnelles.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "9cb911e9",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "01c5d521",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Éditeur",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "70f4923e",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "\n<p>La société SCHUBERT COUVERTURE ZINGUERIE<br>\nSIRET 75106621800023<br>\nRCS Ville tribunal : Grenoble B 751 066 218<br>\nSiège social : 4290 route Napoléon — 38320 Brié-et-Angonnes<br>\nTéléphone : 04 38 70 03 94<br>\nDirecteur de la publication : la société SCHUBERT COUVERTURE ZINGUERIE</p>\n",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "a7053814",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Hébergement",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "f2ff50dc",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Ce site est hébergé par GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "7c0b39c2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Données personnelles",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "7c9afae2",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>La société SCHUBERT COUVERTURE ZINGUERIE n’enregistre pas d’informations personnelles permettant l’identification, à l’exception des formulaires que l’utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord ; elles servent à vous adresser des courriers, des brochures, des devis ou à vous contacter.</p><p>Les informations recueillies bénéficient de la protection de la loi « Informatique et Libertés » n° 78-17 du 6 janvier 1978. Droit d’accès, de rectification, d’opposition et de suppression sur simple demande à SCHUBERT COUVERTURE ZINGUERIE, 4290 route Napoléon — 38320 Brié-et-Angonnes.</p><p>La société peut procéder à des analyses statistiques non nominatives et en informer des tiers (organismes d’évaluation de fréquentation) sous forme résumée et non nominative.</p><p>Ce site n’installe pas de cookies de mesure d’audience.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "2cd7d3a9",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Création graphique",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "d57c5681",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Création graphique : Thomas BONSIRVEN.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "55c572df",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Liens hypertexte",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "af5af793",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>La société SCHUBERT COUVERTURE ZINGUERIE ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "e856c6f5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Photographies",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "5c9e1dd1",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Les crédits photographiques et les mentions d’origine sont regroupés sur la page <a href=\"/credits/\">Crédits & informations</a>.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "version": "0.4",
+  "title": "SCZI — Crédits & informations",
+  "type": "page",
+  "content": [
+    {
+      "id": "74d91f7c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "40",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "d90dca3b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Documentation interne",
+            "header_size": "p",
+            "title_color": "#C8102E",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "size": 1.6,
+              "unit": "px",
+              "sizes": []
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "ca9cbff0",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Crédits & informations",
+            "header_size": "h1",
+            "title_color": "#1C1612",
+            "align": "start",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 36,
+              "unit": "px",
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "f6db2e7a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Page hors parcours client : crédits des photos de stock (obligation légale) et liste de ce qui reste à fournir. Les pages publiques n’affichent que le texte destiné aux visiteurs.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "f00fef07",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "1a9cf338",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Crédits photographiques, par page",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "09f3a0a3",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Les photos de chantiers (lucarnes, Velux, sarking, Eybens, Saint-Nazaire, etc.) proviennent des archives SCZI. Les visuels de stock ci-dessous sont des copies locales, licences Unsplash / Pexels.</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "4d27ed39",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Accueil, hub Services, Isolation combles",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "1b522d59",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><code>isolation-laine.jpg</code> — Pexels, Karolina Grabowska — <a href=\"https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg\">source</a></p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "97446676",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Zone d’intervention",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "3de4d82b",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><code>paysage-alpes.jpg</code> — Pexels, James Wheeler — <a href=\"https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg\">source</a> (photo et fond de la carte)</p>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "17c400f1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Autres photos de stock du dépôt (non affichées sur les pages publiques)",
+            "header_size": "h3",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "d6e6dd3c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<ul><li>Unsplash : Quin Stevenson, Annika Gordon, Daniel McCullough, Dan Gold, R ARCHITECTURE, Daniel Hjalmarsson</li><li>Pexels : Pixabay, Bin Zhang, Kiwihug, Vecislavas Popa, Blue Bird, Binyamin Mellish</li></ul>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "ce091a3f",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1140,
+          "unit": "px",
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "unit": "px",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F7F2EA",
+        "html_tag": "section"
+      },
+      "elements": [
+        {
+          "id": "8af1f493",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Informations encore à fournir",
+            "header_size": "h2",
+            "title_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        },
+        {
+          "id": "8dc178de",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<ol><li>E-mail professionnel</li><li>Identifiant Formspree (remplacer xxxxxxxx dans contact.html) ou adresse mailto définitive — sur WordPress : destinataire du widget Formulaire Elementor Pro</li><li>Horaires d’accueil / d’appel</li><li>Numéros de certificat Qualibat et RGE</li><li>Macarons / certificats Qualibat RGE des années <strong>2018 à 2026</strong> (inventaire : seuls <strong>2016</strong> et <strong>2016–2017</strong> existent). Ne pas inventer d’images.</li><li>Barèmes chiffrés des aides (MaPrimeRénov’, CEE, éco-PTZ, TVA 5,5 % sont cités sur l’accueil, sans montants)</li><li>Tarifs actualisés (le 65 €/m² date d’environ 2018)</li><li>Légendes des photos de chantier encore sans commune ni date</li><li>Réseaux sociaux (les anciens liens du thème étaient factices)</li><li>Forme juridique, capital, TVA intra, assurance décennale</li><li>Avis clients (aucun n’est inventé ici)</li><li>Hébergeur à confirmer si le domaine sczi-renov38.fr est recollé</li><li>Métaux de zinguerie au catalogue, garanties de patine</li><li>Marque d’isolant et avis technique pour le soufflage</li></ol>",
+            "text_color": "#1C1612",
+            "align": "start"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "background_background": "classic",
+    "background_color": "#F7F2EA"
+  }
+}
